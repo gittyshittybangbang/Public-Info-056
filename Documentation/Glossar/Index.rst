@@ -6,4 +6,4 @@
 Glossar
 =======
 
-Hier ist Platz für mein gloreiches Glossar.
+Hier ist Platz für mein glorreiches Glossar.
