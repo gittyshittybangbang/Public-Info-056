@@ -255,6 +255,7 @@ __ https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-I
 .. toctree::
    :hidden:
 
+   Experiment1/Index
    Glossar/Index      
    HelloWorld/Index
    Hyperlinks/Index
