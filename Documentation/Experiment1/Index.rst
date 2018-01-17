@@ -1,4 +1,3 @@
-
 .. With the following include we import some definition. We do this in each and every file.
    so we can change the definition at a single place. Use the relative path to the Includes.txt file,
    which may look as well like ../../../Includes.txt for a deeply nested source file.
@@ -24,9 +23,29 @@ Some **bold** and *italic* Text.
 Links
 =====
 
+
+Link
+----
+
+.. highlight:: rst
+
 ::
 
-   Use `Link text <http://example.com/>`_ for inline web links.
+   Use `Link text <http://example.com/>`__ for inline web links.
+
+Links to other TYPO3 manuals
+----------------------------
+
+:ref:`description of the TS function "parsefunc" <t3tsref:parsefunc>` for more details.
+
+
+:ref:`HTMLparser <t3tsref:htmlparser>`
+
+
+References:
+
+* `Cross-referencing <http://www.sphinx-doc.org/en/stable/markup/inline.html#ref-role/>`_
+* See list in Settings.cfg
 
 Source Code Examples (PHP)
 ==========================
@@ -64,12 +83,12 @@ References:
 Tables
 ======
 
-=====  =====    =======
+=====  =======  =======
        Average  Total
-=====  =====    =======
+=====  =======  =======
 Jan    2.7      3.1
 Feb    3.4      2.0
-=====  =====    =======
+=====  =======  =======
 
 
 References:
@@ -80,6 +99,6 @@ References
 ==========
 
 
-#. reStructured Text Primer: http://www.sphinx-doc.org/en/stable/rest.html
+#. `reStructured Text Primer <http://www.sphinx-doc.org/en/stable/rest.html/>`_
 
 
