@@ -69,7 +69,7 @@ Examples:
 
 References:
 
-* `Cross-referencing <http://www.sphinx-doc.org/en/stable/markup/inline.html#ref-role/>`_
+* `Cross-referencing <http://www.sphinx-doc.org/en/stable/markup/inline.html#ref-role/>`__
 
 Source Code Examples (PHP)
 ==========================
@@ -102,7 +102,7 @@ use this for syntax highlighting:
 
 References:
 
-* `Source Code <http://www.sphinx-doc.org/en/stable/rest.html#source-code/>`_
+* `Source Code <http://www.sphinx-doc.org/en/stable/rest.html#source-code/>`__
 
 Tables
 ======
@@ -117,12 +117,13 @@ Feb    3.4      2.0
 
 References:
 
-* `Tables <http://www.sphinx-doc.org/en/stable/rest.html#tables/>`_
+* `Tables <http://www.sphinx-doc.org/en/stable/rest.html#tables/>`__
 
 References
 ==========
 
 
-#. `reStructured Text Primer <http://www.sphinx-doc.org/en/stable/rest.html/>`_
+* `reStructured Text Primer <http://www.sphinx-doc.org/en/stable/rest.html/>`__
+* `Starter Project 001 <https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-Info-001/StyleGuides/Index.html#/>`__
 
 
