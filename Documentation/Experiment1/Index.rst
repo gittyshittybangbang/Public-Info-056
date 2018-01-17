@@ -20,6 +20,17 @@ Experiment1
 Some **bold** and *italic* Text.
 
 
+Headers
+=======
+
+Subheader 1
+-----------
+
+Subheader 2
+-----------
+
+
+
 Links
 =====
 
@@ -36,16 +47,18 @@ Link
 Links to other TYPO3 manuals
 ----------------------------
 
-:ref:`description of the TS function "parsefunc" <t3tsref:parsefunc>` for more details.
+.. attention::
+   Make sure the manuals you are referencing here are not commented out in Settings.cfg!
 
 
-:ref:`HTMLparser <t3tsref:htmlparser>`
+* See :ref:`description of the TS function "parsefunc" <t3tsref:parsefunc>` for more details.
+* See :ref:`HTMLparser <t3tsref:htmlparser>`
+* See :ref:`Core API <t3coreapi:start>`
 
 
 References:
 
 * `Cross-referencing <http://www.sphinx-doc.org/en/stable/markup/inline.html#ref-role/>`_
-* See list in Settings.cfg
 
 Source Code Examples (PHP)
 ==========================
