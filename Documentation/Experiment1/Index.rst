@@ -50,8 +50,19 @@ Links to other TYPO3 manuals
 .. attention::
    Make sure the manuals you are referencing here are not commented out in Settings.cfg!
 
+.. highlight:: rst
 
-* See :ref:`description of the TS function "parsefunc" <t3tsref:parsefunc>` for more details.
+
+
+Link to Core API Reference:
+
+::
+
+   :ref:`Core API <t3coreapi:start>`
+
+Examples:
+
+* See :ref:`description of the TS function "parsefunc" <t3tsref:parsefunc>`
 * See :ref:`HTMLparser <t3tsref:htmlparser>`
 * See :ref:`Core API <t3coreapi:start>`
 
