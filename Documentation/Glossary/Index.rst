@@ -2,8 +2,8 @@
 .. include:: ../Includes.txt
 
 
-=======
-Glossar
-=======
+========
+Glossary
+========
 
-Hier ist Platz für mein glorreiches Glossar.
+
