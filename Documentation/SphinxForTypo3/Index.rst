@@ -25,3 +25,4 @@ Sphinx for TYPO3
    MartinsIntro
    Overview
    Hyperlinks
+   reStructuredText
