@@ -123,9 +123,9 @@ The TYPO3 source code itself consists mostly of extensions.
 
 The Extension Architecture of TYPO3 makes TYPO3 very extendable and flexible. 
 
-A large number of Extensions provided by 3rdparties are available via the ter_. 
+A large number of Extensions provided by 3rdparties are available via the TYPO3 Extension Repository (:ref:`ter`) or `Packagist <https://packagist.org/packages/typo3/>`__ (if you use composer). 
 
-Extensions are typically developed using Extbase_ / Fluid_. 
+Extensions are typically developed using :ref:`extbase` / :ref:`fluid`. 
 
 See
 
@@ -137,9 +137,9 @@ See
 Extension Manager
 =================
 
-The Extension Manager is accessible in the :ref:`backend` of a TYPO3 Installation. It can be used to configure Extension, execute Update Scripts of Extensions, import, install, uninstall and remove Extensions.
+The Extension Manager is accessible in the :ref:`backend` of a TYPO3 Installation. It can be used to configure Extensions, execute Update Scripts of Extensions, import, install, uninstall, update and remove Extensions.
 
-If :ref:`composer` is used to setup a TYPO3 installation, all installation / deinstallation of Extensions is done via composer. 
+If :ref:`composer` is used to setup a TYPO3 installation, all installation / deinstallation of Extensions is done via composer. In this case, it is not possible to do this with the Extension Manager.
 
 See
 
