@@ -66,12 +66,14 @@ Link to Core API Reference:
 If the section name is
 
 ::
+
    .. _parsefunc:
    
 you need to use
 
 ::
-  <t3coreapi:parsefunc>
+
+   <t3coreapi:parsefunc>
 
 Examples:
 
