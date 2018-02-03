@@ -175,10 +175,10 @@ Install Tool
 Neos
 ====
 
-.. _plugin:
+.. _plugins:
 
-Plugin
-======
+Plugins
+=======
 
 See
 
