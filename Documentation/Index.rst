@@ -255,9 +255,10 @@ __ https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-I
 .. toctree::
    :hidden:
 
-   Experiment1/Index
+   
    Glossary/Index      
-   HelloWorld/Index
+   SphinxForTypo3/Index.rst
+   SphinxForTypo3/Overview
    Hyperlinks/Index
    reStructuredText/Index
 
