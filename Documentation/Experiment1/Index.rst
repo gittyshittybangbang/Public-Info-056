@@ -61,7 +61,17 @@ Link to Core API Reference:
    :ref:`Core API <t3coreapi:start>`
 
 1. Look for the shorthand name of the manual in Settings.cfg. Here: t3coreapi
-2. Look for the section name of the page / section you want to reference
+2. Look for the section name of the page / section you want to reference 
+
+If the section name is
+
+::
+   .. _parsefunc:
+   
+you need to use
+
+::
+  <t3coreapi:parsefunc>
 
 Examples:
 
