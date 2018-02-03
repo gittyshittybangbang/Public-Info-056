@@ -85,7 +85,7 @@ See
 Doctrine DBAL
 =============
 
-Doctrine is not specific to TYPO3
+Doctrine is not specific to TYPO3.
 
 Doctrine DBAL (database abstraction & access layer) is an abstraction layer for accessing variaous databases. It is used in TYPO3 since TYPO3 8.
 
@@ -98,6 +98,13 @@ See
 Extbase
 =======
 
+.. The following sentence was copied verbatim from the manual. See the provided link. Feel free to modify and improve. 
+
+Extbase is a framework for TYPO3 extension development. 
+
+See
+
+* :ref:` Introduction (TYPO3 Extbase guide) <t3extguide>`
 
 
 .. _extension:
@@ -158,6 +165,12 @@ Hook
 
 Install Tool
 ============
+
+
+.. _neos:
+
+Neos
+====
 
 .. _plugin:
 
@@ -226,6 +239,62 @@ TCEmain
 
 Deprecated term, see Datahandler_.
 
+.. _tceform:
+
+TCEform
+=======
 
 
+.. _template:
+
+Template
+========
+
+
+.. _tsconfig:
+
+TSConfig
+========
+
+
+.. tsfe:
+
+TSFE
+====
+
+TSFE = TypoScript Frontend
+
+.. _typo3:
+
+
+TYPO3
+=====
+
+.. _typo3_cms:
+
+.. _typo3_association:
+
+TYPO3 Association
+=================
+
+.. _typo3_cms:
+
+TYPO3 CMS
+=========
+
+.. _typo3_gmbh:
+
+TYPO3 GmbH
+===========
+
+
+.. _typoscript:
+
+TypoScript
+==========
+
+.. _user_int:
+
+USER / USER_INT
+===============
 
