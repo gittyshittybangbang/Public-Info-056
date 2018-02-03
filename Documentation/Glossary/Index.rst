@@ -27,7 +27,7 @@ Backend module
 
 In the backend of a TYPO3 installation, the left panel shows a module menu which lists all available backend modules. Backend modules are only available in the backend. 
 
-Backend modules are provided by Extensions_, as are Plugins_ (displayed in the Frontend).
+Backend modules are provided by :ref:`extensions`, as are :ref:`Plugin` (displayed in the Frontend).
 
 See
 
@@ -137,9 +137,9 @@ See
 Extension Manager
 =================
 
-The Extension Manager is accessible in the Backend_ of a TYPO3 Installation. It can be used to configure Extension, execute Update Scripts of Extensions, import, install, uninstall and remove Extensions.
+The Extension Manager is accessible in the :ref:`backend` of a TYPO3 Installation. It can be used to configure Extension, execute Update Scripts of Extensions, import, install, uninstall and remove Extensions.
 
-If Composer_ is used to setup a TYPO3 installation, all installation / deinstallation of Extensions is done via composer. 
+If :ref:`composer` is used to setup a TYPO3 installation, all installation / deinstallation of Extensions is done via composer. 
 
 See
 
@@ -280,7 +280,7 @@ See
 TCEmain
 =======
 
-Deprecated term, see Datahandler_.
+Deprecated term, see :ref:`datahandler`.
 
 .. _tceform:
 
