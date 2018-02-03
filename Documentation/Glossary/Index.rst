@@ -28,6 +28,7 @@ Backend module
 In the backend of a TYPO3 installation, the left panel shows a module menu which lists all available backend modules. Backend modules are only available in the backend. 
 
 See
+
 * :ref:`Backend Modules (Inside TYPO3) <t3inside:backend-modules-structure>`
 
 .. _cache:
@@ -35,14 +36,14 @@ See
 Cache
 =====
 
-TODO
+
 
 .. _ckeditor:
 
 Ckeditor
 ========
 
-TODO
+
 
 .. _composer:
 
@@ -54,9 +55,9 @@ Composer is not specific to TYPO3.
 Composer is a tool for dependency management in PHP. It can be used to setup / manage a TYPO3 installation including the required extensions (and their dependencies). Currently, there is more than one way to setup a TYPO3 installation. It can be done with composer or without. The recommended way is to use composer
 
 See
+
 * `Composer <https://getcomposer.org/>`_
 * `How to install TYPO3 using composer (TYPO3 Blog) <https://typo3.com/blog/how-to-install-typo3-using-composer-in-less-than-5-minutes/>`__
-* 
 
 
 .. _core:
@@ -76,6 +77,7 @@ Formerly known as TCEmain.
 DataHandler provides an API for modifying (creating, modifying, copying, deleting) TYPO3 database records.
 
 See
+
 * :ref:`DataHandler basics (Core API) <t3coreapi:tce-database-basics>`
 
 .. _doctrine_dbal:
@@ -88,6 +90,7 @@ Doctrine is not specific to TYPO3
 Doctrine DBAL (database abstraction & access layer) is an abstraction layer for accessing variaous databases. It is used in TYPO3 since TYPO3 8.
 
 See
+
 * :ref:`Database overview (Core API) <t3coreapi:Database_Introduction>`
 
 .. _extbase:
@@ -141,12 +144,15 @@ FormEngine
 ==========
 
 See
+
 * :ref:`FormEngine (Core API) <t3coreapi:FormEngine-Introduction>`
+
 
 .. _hook:
 
 Hook
 ====
+
 
 .. _install_tool:
 
@@ -197,6 +203,7 @@ TCA defines / configures properties and relations between database tables and fi
 * configure validators for database fields 
 
 See
+
 * :ref:`Introduction (TCA Reference) <t3tca:introduction>`
 
 .. _tce:
@@ -209,6 +216,7 @@ TCE = TYPO3 core engine
 The TYPO3 Core Engine handles all data writing to database tables as configured in TCA. 
 
 See
+
 * :ref:`Typo3 Core Engine (Core API) <t3coreapi:tce-introduction>`
 
 .. _tcemain:
