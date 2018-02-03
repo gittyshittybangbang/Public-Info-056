@@ -48,7 +48,7 @@ Links to other TYPO3 manuals
 ----------------------------
 
 .. attention::
-   Make sure the manuals you are referencing here are not commented out in Settings.cfg!
+   Make sure the manuals you are referencing here are listed in Settings.cfg!
 
 .. highlight:: rst
 
