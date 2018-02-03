@@ -137,12 +137,29 @@ See
 Extension Manager
 =================
 
+The Extension Manager is accessible in the Backend_ of a TYPO3 Installation. It can be used to configure Extension, execute Update Scripts of Extensions, import, install, uninstall and remove Extensions.
+
+If Composer_ is used to setup a TYPO3 installation, all installation / deinstallation of Extensions is done via composer. 
+
+See
+
+* :ref:`Extension Manager (Getting Started) <t3start:extension-manager>`
+* :ref:`Extension Manager (Core API) <t3coreapi:extension-manager>`
+
+
 .. _fal:
 
 FAL
 ===
 
 FAL = File Abstraction Layer (Digitial assets management)
+
+Abstraction Layer in the TYPO3 core for handling files. 
+
+See
+
+* :ref:`<t3coreapi:fal_introduction>` (Core API)
+
 
 .. _flash_messages:
 
