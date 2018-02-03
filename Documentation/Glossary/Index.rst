@@ -117,7 +117,7 @@ Extensions
 
 Extensions are software components for TYPO3. An extension must adhere to some standards in order to be detected and loaded by TYPO3. 
 
-Extensions may be installed via the :ref:`ExtensionManager` or via :ref:`Composer`.  
+Extensions may be installed via the :ref:`extension_manager` or via :ref:`composer`.  
 
 The TYPO3 source code itself consists mostly of extensions.
 
@@ -132,7 +132,7 @@ See
 * :ref:`Extension Architecture <t3coreapi:extension-architecture-introduction>` (Core API)
 * `TYPO3 Extension Repository <https://extensions.typo3.org/>`__ (TER)
 
-.. _ExtensionManager:
+.. _extension_manager:
 
 Extension Manager
 =================
