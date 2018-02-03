@@ -17,8 +17,8 @@ TYPO3 provides a view for editing and administrating the TYPO3 installation. In 
 
 See
 
-* :ref:`Backend and Frontend (Getting started tutorial) <t3start:backend-and-frontend>`
-* :ref:`Backend interface (Inside TYPO3) <t3inside:backend-modules-structure>`
+* :ref:`Backend and Frontend <t3start:backend-and-frontend>` (Getting started tutorial)
+* :ref:`Backend interface <t3inside:backend-modules-structure>` (Inside TYPO3)
 
 .. _backend_module:
 
@@ -31,8 +31,8 @@ Backend modules are provided by Extensions_, as are Plugins_ (displayed in the F
 
 See
 
-* :ref:`Backend Modules (Inside TYPO3) <t3inside:backend-modules-structure>`
-* :ref:`Extension Architecture (Core API) <t3coreapi:extension-architecture-introduction>` 
+* :ref:`Backend Modules <t3inside:backend-modules-structure>` (Inside TYPO3)
+* :ref:`Extension Architecture <t3coreapi:extension-architecture-introduction>` (Core API)
 
 .. _cache:
 
@@ -60,7 +60,7 @@ Composer is a tool for dependency management in PHP. It can be used to setup / m
 See
 
 * `Composer <https://getcomposer.org/>`_
-* `How to install TYPO3 using composer (TYPO3 Blog) <https://typo3.com/blog/how-to-install-typo3-using-composer-in-less-than-5-minutes/>`__
+* `How to install TYPO3 using composer <https://typo3.com/blog/how-to-install-typo3-using-composer-in-less-than-5-minutes/>`__ (Core API)
 
 
 .. _core:
@@ -129,8 +129,8 @@ Extensions are typically developed using Extbase_ / Fluid_.
 
 See
 
-* :ref:`Extension Architecture (Core API) <t3coreapi:extension-architecture-introduction>`
-* `TYPO3 Extension Repository (TER) <https://extensions.typo3.org/>`__
+* :ref:`Extension Architecture <t3coreapi:extension-architecture-introduction>` (Core API)
+* `TYPO3 Extension Repository <https://extensions.typo3.org/>`__ (TER)
 
 .. _ExtensionManager:
 
@@ -143,8 +143,8 @@ If Composer_ is used to setup a TYPO3 installation, all installation / deinstall
 
 See
 
-* :ref:`Extension Manager (Getting Started) <t3start:extension-manager>`
-* :ref:`Extension Manager (Core API) <t3coreapi:extension-manager>`
+* :ref:`Extension Manager <t3start:extension-manager>` (Getting Started)
+* :ref:`Extension Manager <t3coreapi:extension-manager>` (Core API)
 
 
 .. _fal:
@@ -217,7 +217,7 @@ Plugins
 
 See
 
-* * :ref:`Extension Architecture (Core API) <t3coreapi:extension-architecture-introduction>` 
+* * :ref:`Extension Architecture <t3coreapi:extension-architecture-introduction>` (Core API)
 
 
 .. _rte:
@@ -260,7 +260,7 @@ TCA defines / configures properties and relations between database tables and fi
 
 See
 
-* :ref:`Introduction (TCA Reference) <t3tca:introduction>`
+* :ref:`Introduction <t3tca:introduction>` (TCA Reference)
 
 .. _tce:
 
@@ -273,7 +273,7 @@ The TYPO3 Core Engine handles all data writing to database tables as configured 
 
 See
 
-* :ref:`Typo3 Core Engine (Core API) <t3coreapi:tce-introduction>`
+* :ref:`Typo3 Core Engine <t3coreapi:tce-introduction>` (Core API)
 
 .. _tcemain:
 
