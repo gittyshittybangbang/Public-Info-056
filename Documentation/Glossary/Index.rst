@@ -158,7 +158,8 @@ Abstraction Layer in the TYPO3 core for handling files.
 
 See
 
-* :ref:`<t3coreapi:fal_introduction>` (Core API)
+* :ref:<t3coreapi:fal_introduction> (Core API)
+* :ref:`Using FAL <t3coreapi:using-fal>` (Core API)
 
 
 .. _flash_messages:
