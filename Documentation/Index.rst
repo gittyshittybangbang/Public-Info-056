@@ -256,9 +256,7 @@ __ https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-I
    :hidden:
 
    
-   Glossary/Index      
+   DraftsAndIdeas/Index      
    SphinxForTypo3/Index.rst
-   SphinxForTypo3/Overview
-   Hyperlinks/Index
-   reStructuredText/Index
+   
 
