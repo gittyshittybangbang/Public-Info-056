@@ -27,9 +27,12 @@ Backend module
 
 In the backend of a TYPO3 installation, the left panel shows a module menu which lists all available backend modules. Backend modules are only available in the backend. 
 
+Backend modules are provided by Extensions_, as are Plugins_ (displayed in the Frontend).
+
 See
 
 * :ref:`Backend Modules (Inside TYPO3) <t3inside:backend-modules-structure>`
+* :ref:`Extension Architecture (Core API) <t3coreapi:extension-architecture-introduction>` 
 
 .. _cache:
 
@@ -87,7 +90,7 @@ Doctrine DBAL
 
 Doctrine is not specific to TYPO3.
 
-Doctrine DBAL (database abstraction & access layer) is an abstraction layer for accessing variaous databases. It is used in TYPO3 since TYPO3 8.
+Doctrine DBAL (database abstraction & access layer) is an abstraction layer for accessing various databases. It is used in TYPO3 since TYPO3 8.
 
 See
 
@@ -107,10 +110,10 @@ See
 * :ref:` Introduction (TYPO3 Extbase guide) <t3extguide>`
 
 
-.. _extension:
+.. _extensions:
 
-Extension
-=========
+Extensions
+==========
 
 .. _extension_manager:
 
@@ -176,6 +179,11 @@ Neos
 
 Plugin
 ======
+
+See
+
+* * :ref:`Extension Architecture (Core API) <t3coreapi:extension-architecture-introduction>` 
+
 
 .. _rte:
 
