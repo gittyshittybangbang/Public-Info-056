@@ -13,9 +13,9 @@
 
 .. The following, first section (= headline) is the 'Document Title'.
 
-========
-Overview
-========
+================================
+Sphinx for TYPO3 Hints: Overview
+================================
 
 
 Some **bold** and *italic* Text.
