@@ -107,13 +107,30 @@ Extbase is a framework for TYPO3 extension development.
 
 See
 
-* :ref:` Introduction (TYPO3 Extbase guide) <t3extguide>`
+* :ref:`Introduction (TYPO3 Extbase guide) <t3extguide>`
 
 
 .. _extensions:
 
 Extensions
 ==========
+
+Extensions are software components for TYPO3. An extension must adhere to some standards in order to be detected and loaded by TYPO3. 
+
+Extensions may be installed via the extension_manager_ or via composer_.  
+
+The TYPO3 source code itself consists mostly of extensions.
+
+The Extension Architecture of TYPO3 makes TYPO3 very extendable and flexible. 
+
+A large number of Extensions provided by 3rdparties are available via the ter_. 
+
+Extensions are typically developed using extbase_ / fluid_. 
+
+See
+
+* :ref:`Extension Architecture (Core API) <t3coreapi:extension-architecture-introduction>`
+* `TYPO3 Extension Repository (TER) <https://extensions.typo3.org/>`__
 
 .. _extension_manager:
 
@@ -257,6 +274,16 @@ TCEform
 
 Template
 ========
+
+
+
+
+
+.. _ter:
+
+TER
+===
+
 
 
 .. _tsconfig:
