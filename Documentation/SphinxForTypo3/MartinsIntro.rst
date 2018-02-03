@@ -26,15 +26,6 @@ Martin's Intro
 ==============
 
 
-.. The following is 'field list' which is rendered as a horizontal table.
-   Think of it as key-value pairs.
-
-
-:Writing here:    `Sybille Peters <my.name@gmail.com>`__
-:Rendered:        |today|
-:Buildinfo:       `buildinfo <_buildinfo>`_
-:Others:          `Who else has a starter project?`__
-
 __ https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-Info-001/TeachingDocs/StarterManuals/
 
 .. _Martin: martin.bless@mbless.de
