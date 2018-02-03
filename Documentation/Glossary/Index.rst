@@ -215,7 +215,7 @@ See
 TCEmain
 =======
 
-Deprecated term, see datahandler_.
+Deprecated term, see Datahandler_.
 
 
 
