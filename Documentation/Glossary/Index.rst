@@ -10,7 +10,7 @@ Overview of basic terms used by TYPO3.
 
 .. _backend:
 
-backend 	
+Backend 	
 =======
 
 TYPO3 provides a view for editing and administrating the TYPO3 installation. In order to interact with the backend, you need to login as a backend user.
@@ -96,7 +96,7 @@ See
 
 * :ref:`Database overview (Core API) <t3coreapi:Database_Introduction>`
 
-.. _extbase:
+.. _Extbase:
 
 Extbase
 =======
@@ -117,7 +117,7 @@ Extensions
 
 Extensions are software components for TYPO3. An extension must adhere to some standards in order to be detected and loaded by TYPO3. 
 
-Extensions may be installed via the extension_manager_ or via composer_.  
+Extensions may be installed via the ExtensionManager_ or via Composer_.  
 
 The TYPO3 source code itself consists mostly of extensions.
 
@@ -125,14 +125,14 @@ The Extension Architecture of TYPO3 makes TYPO3 very extendable and flexible.
 
 A large number of Extensions provided by 3rdparties are available via the ter_. 
 
-Extensions are typically developed using extbase_ / fluid_. 
+Extensions are typically developed using Extbase_ / Fluid_. 
 
 See
 
 * :ref:`Extension Architecture (Core API) <t3coreapi:extension-architecture-introduction>`
 * `TYPO3 Extension Repository (TER) <https://extensions.typo3.org/>`__
 
-.. _extension_manager:
+.. _ExtensionManager:
 
 Extension Manager
 =================
@@ -154,7 +154,7 @@ Flash messages
 Flexform
 ========
 
-.. _fluid:
+.. _Fluid:
 
 Fluid
 =====
