@@ -255,7 +255,8 @@ TCA = Table Configuration Array
 
 A global array $GLOBALS['TCA']. which extends the definition of database tables beyond what can be done strictly with SQL.
 
-TCA defines / configures properties and relations between database tables and fields. It can be used to
+TCA defines / configures properties and relations between database tables and fields. It can be used to:
+
 * define which tables / fields are editable in the TYPO3 backend
 * configure what is displayed in the backend
 * define relations between tables
