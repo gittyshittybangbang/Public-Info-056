@@ -1,6 +1,9 @@
 
 .. include:: ../Includes.txt
 
+.. Suggestions:
+   1. Keep text here short and link to relevant sections in manual.
+   2. Do not use
 
 ==============
 TYPO3 Glossary
@@ -273,7 +276,7 @@ The TYPO3 Core Engine handles all data writing to database tables as configured 
 
 See
 
-* :ref:`Typo3 Core Engine <t3coreapi:tce-introduction>` (Core API)
+* :ref:`TYPO3 Core Engine <t3coreapi:tce-introduction>` (Core API)
 
 .. _tcemain:
 
