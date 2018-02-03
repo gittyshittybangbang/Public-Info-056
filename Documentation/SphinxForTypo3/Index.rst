@@ -22,4 +22,5 @@ Sphinx for TYPO3
    :hidden:
 
    
+   MartinsIntro
    Overview
