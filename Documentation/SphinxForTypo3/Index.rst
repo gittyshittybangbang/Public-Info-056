@@ -16,3 +16,10 @@
 ================
 Sphinx for TYPO3
 ================
+
+
+.. toctree::
+   :hidden:
+
+   
+   Overview
