@@ -9,7 +9,8 @@
 TYPO3 Glossary
 ==============
 
-Overview of basic terms used in the TYPO3 documentation.
+Overview of basic terms, acronyms and hashtags used throughout the TYPO3 documentation
+and TYPO3 community.
 
 .. hint::
 
@@ -143,6 +144,15 @@ See
 
 .. _extensions:
 
+
+.. _extension_builder:
+
+Extension Builder
+=================
+
+
+
+
 Extensions
 ==========
 
@@ -177,8 +187,8 @@ Extension Manager
 =================
 
 The Extension Manager is accessible in the :ref:`backend` of a TYPO3
-Installation. It can be used to configure Extensions, execute Update 
-Scripts of Extensions, import, install, uninstall, update and remove 
+Installation. It can be used to configure Extensions, execute update 
+scripts of Extensions, import, install, uninstall, update and remove 
 Extensions.
 
 If :ref:`composer` is used to setup a TYPO3 installation, all installation 
@@ -248,7 +258,7 @@ FormEngine
 
 See
 
-* :ref:`FormEngine (Core API) <t3coreapi:FormEngine-Introduction>`
+* :ref:`FormEngine <t3coreapi:FormEngine-Introduction>` (Core API)
 
 
 .. _hook:
@@ -300,6 +310,20 @@ System Log
 ==========
 
 .. _tca:
+
+.. _t3dd:
+
+t3dd
+====
+
+TYPO3 developer days (Event) 
+
+.. _t3uxw:
+
+T3uxw
+=====
+
+TYPO3 User Experience Week (Event)
 
 TCA
 ===
@@ -356,16 +380,24 @@ TCEform
 Template
 ========
 
+In the context of TYPO3, template can mean one of many things:
 
+* a :ref:`typoscript` template, which is a set of TypoScript configuration connected to a specific page (and it's subpages)
+* a :ref:`fluid` template file defining how a plugin / content element / page is to be rendered
+* the general process of using a template as a general blueprint for the site layout. The template contains static parts and dynamic parts that will be filled differently for each page
 
-
+fixme: 
 
 .. _ter:
 
 TER
 ===
 
+TYPO3 Extension Repository
 
+See
+
+* `TER <https://extensions.typo3.org/>`__
 
 .. _tsconfig:
 
@@ -380,6 +412,14 @@ TSFE
 
 TSFE = TypoScript Frontend
 
+$GLOBALS['TSFE'] is an array which contains information for the currently rendered page, e.g. the current language or pid.  
+
+See
+
+* fixme: add link
+
+.. I did not find any place in the docs where TSFE is explained ... 
+
 .. _typo3:
 
 
@@ -387,6 +427,9 @@ TYPO3
 =====
 
 .. _typo3_cms:
+
+TYPO3 CMS
+=========
 
 .. _typo3_association:
 
