@@ -100,6 +100,7 @@ Composer
 
 Composer is not specific to TYPO3.
 
+
 Composer is a tool for dependency management in PHP. It can be used
 to setup / manage a TYPO3 installation including the required 
 extensions (and their dependencies). Currently, there is more than 
