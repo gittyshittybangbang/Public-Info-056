@@ -268,7 +268,7 @@ Flexform
 
 .. This is a first draft for a text. I didn't really find a place in the documentation where flexforms are explained. 
 
-Flexforms are used to configure plugins. A configuration schema is defined in XML. It can contain text fields, lists and other elements. This defineds how the plugin is configured in the TYPO3 backend. The configuration is stored into a single field pi_flexform inside the tt_content table. 
+Flexforms are used to configure plugins. A configuration schema is defined in XML. It can contain text fields, lists and other elements. This defines how a plugin is configured in the TYPO3 backend. The configuration is stored into a single field pi_flexform inside the tt_content table. 
 
 .. attention::
    Fixme: add link
