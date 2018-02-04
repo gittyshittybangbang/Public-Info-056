@@ -24,6 +24,10 @@ and TYPO3 community.
    Fixme: Find a way to visually make links pointing to official TYPO3
    Documentation easily distinguishable from other links.
   
+.. attention::
+   Check: When we talk about TYPO3 core, do we mean the entire TYPO3
+   source or just the "core" sysext in the source?
+  
    
 .. _backend:
 
@@ -69,7 +73,7 @@ TYPO3 optimizes performance by using a sophisticated caching system. This is hig
 
 See
 
-* :ref:`Caching Framework <t3coreapi:_caching>`__
+* :ref:`Caching Framework <t3coreapi:caching>`__
 * `Stackoverflow: What are the different kind of caches?
  <https://stackoverflow.com/questions/27320922/typo3-what-are-the-different-kind-of-caches>`__
 
@@ -121,9 +125,15 @@ Core
 TYPO3 Core can mean one of two things:
 
 * TYPO3 basic code and functionality. Since (almost) everything is an
-extension in TYPO3, core functionality is bundled inside the extension 
-"core".
+  extension in TYPO3, core functionality is bundled inside the extension 
+  "core".
 * The entire TYPO3 source code.
+
+
+.. _css_styled_content:
+
+css_styled_content
+==================
 
 
 .. _datahandler:
@@ -165,10 +175,7 @@ Extbase is a framework for TYPO3 extension development. It is included inside th
 
 See
 
-* :ref:`Introduction (TYPO3 Extbase guide) <t3extguide>`
-
-
-.. _extensions:
+* :ref:`Introduction (TYPO3 Extbase guide) <t3extguide:start>`
 
 
 .. _extension_builder:
@@ -181,6 +188,10 @@ Extension_builder is an additional extension that is not included with the TYPO3
 See
 
 * `extension_builder <https://docs.typo3.org/typo3cms/extensions/extension_builder/>`__
+
+
+
+.. _extensions:
 
 Extensions
 ==========
@@ -241,7 +252,7 @@ Abstraction Layer in the TYPO3 core for handling files.
 
 See
 
-* :ref:<t3coreapi:fal_introduction> (Core API)
+* :ref:`FAL Introduction <t3coreapi:fal_introduction>` (Core API)
 * :ref:`Using FAL <t3coreapi:using-fal>` (Core API)
 
 
@@ -274,6 +285,19 @@ See
 
 * :ref:`Fluid <t3extguide:start>` (Extbase / Fluid guide)
 
+.. attention::
+   Fixme: I did not find a really good introductory text for fluid
+   in the docs. Maybe add another link later or update the docs?
+
+
+.. _fluid_styled_content:
+
+fluid_styled_content
+====================
+
+
+
+
 .. _frontend:
 
 Frontend
@@ -284,6 +308,17 @@ Frontend
 
 FormEngine
 ==========
+
+.. attention::
+   Find a good introductory text for FormEngine. The Core API docs
+   do a good job of explaining how FormEngine, TSFE and DataHandler
+   play together, but what exactly is the responsibility of 
+   FormEngine is a little fuzzy. This here is a very, very first draft.
+   
+FormEngine is part of the TYPO3 core. It renders forms in the :ref:`backend`_
+for editing records. It can be used to edit for example the page title in 
+the table pages. The result is then stored in the database. :ref:`tca` is 
+used to configure how the various fields can be edited. 
 
 See
 
@@ -327,8 +362,9 @@ RTE
 Scheduler
 =========
 
-The ' TYPO3 scheduler <https://docs.typo3.org/typo3cms/extensions/scheduler/Index.html>' __ is an extension inside the core which can be used to automatically and
-periodically start processes inside the TYPO3 context. Extensions can provide :ref:`command controllers <t3extbasebook:extbase_command_controller_about>`
+The ' TYPO3 scheduler <https://docs.typo3.org/typo3cms/extensions/scheduler/Index.html>' __ 
+is an extension inside the core which can be used to automatically and periodically 
+start processes inside the TYPO3 context. Extensions can provide :ref:`command controllers <t3extbasebook:extbase_command_controller_about>`
 that may be executed via the scheduler. 
 
 .. _signal:
@@ -497,6 +533,17 @@ TYPO3 GmbH
 
 TypoScript
 ==========
+
+"TypoScript is a syntax for defining information in a hierarchical structure using simple ASCII text content." (:ref:`What is TypoScript <t3coreapi:typoscript-syntax-what-is-typoscript>` TypoScript is converted into a PHP array. 
+
+It can be used for configuration and for defining the rendering in the frontend. Some parts of what was previously handled by TypoScript is now being taken over by :ref:`fluid_styled_content` and :ref:`fluid` templates. 
+
+Just a few examples of what can be done with TypoScript:
+
+* language configuration
+* define how menus are rendered in the site layout
+* configure extensions
+
 
 .. _user_int:
 
