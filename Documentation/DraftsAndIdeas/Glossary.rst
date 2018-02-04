@@ -85,7 +85,7 @@ CKEditor
 
 `CKEditor <https://en.wikipedia.org/wiki/CKEditor>`__ itself is not specific to TYPO3, the extension rte_ckeditor is. 
 
-CKEditor is a Rich Text Editor (:ref: `RTE <t3coreapi:rte>`__) that can be used to edit fields in TYPO3 using Wysiwyg elements like lists, bold text etc. The corresponding extension (rte_ckeditor) is included in the core but it must be activated.  
+CKEditor is a Rich Text Editor (:ref:`RTE <t3coreapi:rte>`) that can be used to edit fields in TYPO3 using Wysiwyg elements like lists, bold text etc. The corresponding extension (rte_ckeditor) is included in the core but it must be activated.  
 
 Ckeditor is configured with Yaml files.
 
