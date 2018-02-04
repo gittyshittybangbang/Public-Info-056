@@ -17,9 +17,13 @@ and TYPO3 community.
    This is a first draft. The idea is: When people are new to TYPO3, 
    they might get confused by the terminology. This should serve as
    a handy reference. The explanations should be kept short and link 
-   to the places in the documentation where the terms are explained 
-   in more detail.
-   
+   to the places in the documentation where the respective concept 
+   is explained in more detail.
+  
+.. attention::
+   Fixme: Find a way to visually make links pointing to official TYPO3
+   Documentation easily distinguishable from other links.
+  
    
 .. _backend:
 
@@ -39,11 +43,11 @@ See
 
 .. _backend_module:
 
-Backend module	
-==============
+(Backend) module	
+================
 
 In the backend of a TYPO3 installation, the left panel shows a 
-module menu which lists all available backend modules. Backend 
+module menu which lists all available (backend) modules. Backend 
 modules are only available in the backend. 
 
 Backend modules are provided by :ref:`extensions`, as are
@@ -61,14 +65,29 @@ See
 Cache
 =====
 
+TYPO3 optimizes performance by using a sophisticated caching system. This is highly configurable, e.g. the page cache can be stored in the Database or for example in Redis. 
+
+See
+
+* :ref:`Caching Framework <t3coreapi:_caching>`__
+* `Stackoverflow: What are the different kind of caches?
+ <https://stackoverflow.com/questions/27320922/typo3-what-are-the-different-kind-of-caches>`__
 
 
 .. _ckeditor:
 
-Ckeditor
+CKEditor
 ========
 
+`CKEditor <https://en.wikipedia.org/wiki/CKEditor>`__ itself is not specific to TYPO3, the extension rte_ckeditor is. 
 
+CKEditor is a Rich Text Editor (:ref: `RTE <t3coreapi:rte>`__) that can be used to edit fields in TYPO3 using Wysiwyg elements like lists, bold text etc. The corresponding extension (rte_ckeditor) is included in the core but it must be activated.  
+
+Ckeditor is configured with Yaml files.
+
+See
+
+* TYPO3 Worx: `The new CKeditor in TYPO3 : A configuration tutorial <https://typo3worx.eu/2017/02/configure-ckeditor-in-typo3/>`__
 
 .. _composer:
 
@@ -88,7 +107,7 @@ See
 * `Composer <https://getcomposer.org/>`_
 * `How to install TYPO3 using composer 
   <https://typo3.com/blog/how-to-install-typo3-using-composer-in-less-than-5-minutes/>`__ 
-  (Core API)
+  
 
 
 .. _core:
@@ -96,9 +115,16 @@ See
 Core
 ====
 
-TYPO3 basic code and functionality. Since (almost) everything is an
+.. attention:: 
+   Fixme: Check this!
+
+TYPO3 Core can mean one of two things:
+
+* TYPO3 basic code and functionality. Since (almost) everything is an
 extension in TYPO3, core functionality is bundled inside the extension 
 "core".
+* The entire TYPO3 source code.
+
 
 .. _datahandler:
 
@@ -135,7 +161,7 @@ Extbase
 
 .. The following sentence was copied verbatim from the manual. See the provided link. Feel free to modify and improve. 
 
-Extbase is a framework for TYPO3 extension development. 
+Extbase is a framework for TYPO3 extension development. It is included inside the TYPO3 source code.
 
 See
 
@@ -150,8 +176,11 @@ See
 Extension Builder
 =================
 
+Extension_builder is an additional extension that is not included with the TYPO3 source code. It can be used to design extensions and automatically generates code. It includes a database modeler.
 
+See
 
+* `extension_builder <https://docs.typo3.org/typo3cms/extensions/extension_builder/>`__
 
 Extensions
 ==========
@@ -230,9 +259,9 @@ Flexform
 
 Flexforms are used to configure plugins. A configuration schema is defined in XML. It can contain text fields, lists and other elements. This defineds how the plugin is configured in the TYPO3 backend. The configuration is stored into a single field pi_flexform inside the tt_content table. 
 
-See
+.. attention::
+   Fixme: add link
 
-* fixme: add link
 
 .. _Fluid:
 
@@ -298,6 +327,9 @@ RTE
 Scheduler
 =========
 
+The ' TYPO3 scheduler <https://docs.typo3.org/typo3cms/extensions/scheduler/Index.html>' __ is an extension inside the core which can be used to automatically and
+periodically start processes inside the TYPO3 context. Extensions can provide :ref:`command controllers <t3extbasebook:extbase_command_controller_about>`
+that may be executed via the scheduler. 
 
 .. _signal:
 
@@ -309,7 +341,7 @@ Signal
 System Log
 ==========
 
-.. _tca:
+
 
 .. _t3dd:
 
@@ -325,10 +357,13 @@ T3uxw
 
 TYPO3 User Experience Week (Event)
 
+
+.. _tca:
+
 TCA
 ===
 
-TCA = Table Configuration Array
+:ref:`TCA <t3tca:introduction>`  = Table Configuration Array
 
 .. The following sentence was copied almost verbatim from the tca reference. The rest was added later. See the provided link. Feel free to modify and improve. 
 
@@ -344,9 +379,7 @@ tables and fields. It can be used to:
 * define relations between tables
 * configure validators for database fields 
 
-See
 
-* :ref:`Introduction <t3tca:introduction>` (TCA Reference)
 
 .. _tce:
 
@@ -386,18 +419,15 @@ In the context of TYPO3, template can mean one of many things:
 * a :ref:`fluid` template file defining how a plugin / content element / page is to be rendered
 * the general process of using a template as a general blueprint for the site layout. The template contains static parts and dynamic parts that will be filled differently for each page
 
-fixme: 
 
 .. _ter:
 
 TER
 ===
 
-TYPO3 Extension Repository
+`TYPO3 Extension Repository <https://extensions.typo3.org/>`__
 
-See
-
-* `TER <https://extensions.typo3.org/>`__
+Extensions that are supplied by 3rdparties and that are not shipped with TYPO3 are hosted in the TER. The TER web interface supplies information about each extension (e.g. Link to the documentation, TYPO3 version support).
 
 .. _tsconfig:
 
@@ -410,15 +440,21 @@ TSConfig
 TSFE
 ====
 
+.. attention::
+   I did not find any place in the docs where TSFE is explained ... This text was written from scratch. 
+
 TSFE = TypoScript Frontend
 
-$GLOBALS['TSFE'] is an array which contains information for the currently rendered page, e.g. the current language or pid.  
+$GLOBALS['TSFE'] is the instantiation of the class TypoScriptFrontendController. It contains information for the currently rendered page in the frontend, e.g. the current language or pid.  
+
+.. attention::
+   Fixme: Find better place to link to.
 
 See
 
-* fixme: add link
+* `FormEngine introduction <https://docs.typo3.org/typo3cms/CoreApiReference/ApiOverview/FormEngine/Introduction/Index.html?highlight=typoscriptfrontendcontroller>`__ (Core API)
 
-.. I did not find any place in the docs where TSFE is explained ... 
+
 
 .. _typo3:
 
@@ -426,20 +462,30 @@ See
 TYPO3
 =====
 
-.. _typo3_cms:
+The word TYPO3 has several meanings:
 
-TYPO3 CMS
-=========
+* The word "TYPO3" is a trademark owned by the TYPO3 Association, see `Trademark Usage Policy <https://typo3.org/about/the-trademarks/>`__
+* TYPO3 is often used to refer to TYPO3 CMS, though TYPO3 CMS would be the correct term.
+* TYPO3 is often used in combination with anything concerning TYPO3 including but not limited to the TYPO3 community and the TYPO3 products.
+* The name TYPO3 has the following history: `About the name <https://typo3.org/about/the-brand/about-the-name/>`__
+
 
 .. _typo3_association:
 
 TYPO3 Association
 =================
 
+.. Text taken verbatim from ttps://typo3.org/association/
+
+The `TYPO3 Association <https://typo3.org/association/>`__ is a not-for-profit organisation and was founded in 2004 to provide funds for long-term development goals.
+
+
 .. _typo3_cms:
 
 TYPO3 CMS
 =========
+
+The TYPO3 `Content Management System <https://en.wikipedia.org/wiki/Content_management_system>`__.
 
 .. _typo3_gmbh:
 
