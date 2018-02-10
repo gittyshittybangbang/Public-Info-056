@@ -3,7 +3,10 @@
 
 .. Suggestions:
    1. Keep text here short and link to relevant sections in manual.
-   2. Do not use
+   
+.. Todo
+   1. Check: When we talk about TYPO3 core, do we mean the entire TYPO3
+   source or just the "core" sysext in the source?
 
 ==============
 TYPO3 Glossary
@@ -20,14 +23,7 @@ and TYPO3 community.
    to the places in the documentation where the respective concept 
    is explained in more detail.
   
-.. attention::
-   Fixme: Find a way to visually make links pointing to official TYPO3
-   Documentation easily distinguishable from other links.
-  
-.. attention::
-   Check: When we talk about TYPO3 core, do we mean the entire TYPO3
-   source or just the "core" sysext in the source?
-  
+
    
 .. _backend:
 
