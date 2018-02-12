@@ -46,5 +46,6 @@ __ https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-I
    
    DraftsAndIdeas/Index      
    SphinxForTypo3/Index.rst
+   Notes/Index.rst
    
 
