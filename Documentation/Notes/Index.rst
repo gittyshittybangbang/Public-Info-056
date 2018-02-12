@@ -39,4 +39,4 @@ More Info
 See
 
 * `Redmine Textile formatting <https://www.redmine.org/projects/redmine/wiki/RedmineTextFormattingTextile>`__
-* `Example <
+
