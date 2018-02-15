@@ -333,6 +333,10 @@ Hook
 Install Tool
 ============
 
+.. _irre:
+
+IRRE
+====
 
 .. _neos:
 
