@@ -43,11 +43,11 @@ Things to add
 * Bug reporting: Hints for how to describe a problem in an understandable way. 
     * should "steps to reproduce" be in there?
     * Example: https://testlio.com/blog/the-ideal-bug-report/
-      * Environment
-      * Steps to reproduce
-      * Expected result
-      * Actual result
-      * Screenshot (if it helps to grasp the problem quickly)
+       * Environment
+       * Steps to reproduce
+       * Expected result
+       * Actual result
+       * Screenshot (if it helps to grasp the problem quickly)
     * formatting templates?  
 * Add a request: after submitting bug reports or patches, monitor your e-mail notifications
    and respond
