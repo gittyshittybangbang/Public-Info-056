@@ -48,7 +48,9 @@ Additional things to add to :ref:`TYPO3 Core Contribution Guide <t3contrib:start
       * Possibly screenshot (if it helps to grasp the problem quickly)
  * Personally, I would add another request: after submitting bug reports or patches, monitor your e-mail notifications
    and respond quickly. 
-  
+ * Move information on slack to a seperate section (currently mentioned here https://docs.typo3.org/typo3cms/ContributionWorkflowGuide/latest/singlehtml/#fixing-a-bug-a-z and here https://docs.typo3.org/typo3cms/ContributionWorkflowGuide/BugfixingAZ/Index.html)
+    * botty : Add a link to botty information: https://wiki.typo3.org/T3Bot  
+    * provide very short info on which channel to use for what
   
 Optional
 ========
