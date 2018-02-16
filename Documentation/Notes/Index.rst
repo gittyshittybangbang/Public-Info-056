@@ -40,3 +40,7 @@ See
 
 * `Redmine Textile formatting <https://www.redmine.org/projects/redmine/wiki/RedmineTextFormattingTextile>`__
 
+TYPO3 Documentation Team
+=========================
+
+* `T3DocTeam writing here <https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-Info-054/Index.html>`__
