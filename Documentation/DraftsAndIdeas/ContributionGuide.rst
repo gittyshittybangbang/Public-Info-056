@@ -13,6 +13,8 @@ Additional things to add to :ref:`TYPO3 Core Contribution Guide <t3contrib:start
 
 If the information already exists somewhere else, link to it and do not duplicate it!
 
+
+
 Things to add
 -------------
 
@@ -20,15 +22,14 @@ Things to add
 * Add section about debugging, add video from Susi: https://www.youtube.com/watch?v=VtffB0CG1ok&t=13s
 * Add links to: core api, coding guidelines
 * Hints for testing your stuff
-* More information for people only testing patches and not developing. 
-* Add hints (only a minor section) with hints for Phpstorm in :ref:`Setting up your IDE for CGL", e.g. "Code:Reformat code"  
+* Add hints (only a minor section) for Phpstorm in :ref:`Setting up your IDE for CGL", e.g. "Code:Reformat code"  
 * Add a prominent warning / note on the information about [SECURITY] commits to contact the security team first in 
   :ref:`Topic description <t3contrib:Commit-Message-Format>` like: 
 
 .. important::
       In case you found a security issues, always get in contact with the `Security Team <https://typo3.org/teams/security/>`__ first! Do not post information about the security leak in a public place. Once you push a patch, it will be publicly viewable on the review server. Do not do this for security-related things. 
 
-* Add a cheat sheet with basic info / commands (or put in  "Cheat Sheets" section?)
+* Add a cheat sheet with basic info / commands 
 * Add some handy links to useful views in the section on forger  
 * Provide a brief overview in the beginning what to read for what purpose:
    * testing
@@ -51,15 +52,22 @@ Things to add
    and respond
 * botty : Add a link to botty information: https://wiki.typo3.org/T3Bot  
 * slack: provide very short info on which channel to use for what
-* Add section howto startup TYPO3 website, also in an easy way for people just testing, not developing. 
-   * There is a note on homestead in the gerrit section, check if this is up to date, provide information
-   * php -S 127.0.0.1:12345
-   * FIRST_INSTALL: https://docs.typo3.org/typo3cms/InstallationGuide/QuickInstall/TheInstallTool/Index.html
+* Add section howto startup TYPO3 website (see "needs help")
 * also point people to information, where they can contribute to ... 
    * extensions
    * translation
    * docs
 * add link to https://typo3.org/community/code-of-conduct/   
+
+Needs help
+----------
+
+* Add section howto startup TYPO3 website, also in an easy way for people just testing, not developing. 
+   * There is a note on homestead in the gerrit section, check if this is up to date, provide information
+   * php -S 127.0.0.1:12345
+   * FIRST_INSTALL: https://docs.typo3.org/typo3cms/InstallationGuide/QuickInstall/TheInstallTool/Index.html
+
+
 
 Structural changes
 ------------------
