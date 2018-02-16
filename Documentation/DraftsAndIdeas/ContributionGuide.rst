@@ -19,10 +19,8 @@ Things to add
 * Add video from Mathias: `How to fix a bug in the core <https://www.youtube.com/watch?v=gN8BVSBlgfU>`__
 * Add section about debugging, add video from Susi: https://www.youtube.com/watch?v=VtffB0CG1ok&t=13s
 * Add links to: core api, coding guidelines
-* Add section howto startup TYPO3 website
 * Hints for testing your stuff
-* More information for people only testing patches and not developing. There is a note on homestead in the gerrit section, 
-  but people not developing probably need more information.
+* More information for people only testing patches and not developing. 
 * Add hints (only a minor section) with hints for Phpstorm in :ref:`Setting up your IDE for CGL", e.g. "Code:Reformat code"  
 * Add a prominent warning / note on the information about [SECURITY] commits to contact the security team first in 
   :ref:`Topic description <t3contrib:Commit-Message-Format>` like: 
@@ -53,7 +51,15 @@ Things to add
    and respond
 * botty : Add a link to botty information: https://wiki.typo3.org/T3Bot  
 * slack: provide very short info on which channel to use for what
-
+* Add section howto startup TYPO3 website, also in an easy way for people just testing, not developing. 
+   * There is a note on homestead in the gerrit section, check if this is up to date, provide information
+   * php -S 127.0.0.1:12345
+   * FIRST_INSTALL: https://docs.typo3.org/typo3cms/InstallationGuide/QuickInstall/TheInstallTool/Index.html
+* also point people to information, where they can contribute to ... 
+   * extensions
+   * translation
+   * docs
+* add link to https://typo3.org/community/code-of-conduct/   
 
 Structural changes
 ------------------
