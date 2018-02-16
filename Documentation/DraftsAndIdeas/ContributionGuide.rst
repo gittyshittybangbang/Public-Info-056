@@ -27,8 +27,28 @@ Additional things to add to :ref:`TYPO3 Core Contribution Guide <t3contrib:start
 
 * Add a cheat sheet with basic commands (or put in  "Cheat Sheets" section?)
 * Possibly provide a brief overview in the beginning what to read for what purpose:
-  * testers only
-  * bug reporting
+   * testing
+   * bug reporting
+   * coding    
+* Add some handy links to useful views in the section on forger  
+* Possibly add more information on the section :ref:`<redmine-index>`
+   * Status: 
+      * who sets to Accepted (core team?)
+      * I guess, the rest is obvious
+ * Possibly split up "Fixing a bug A-Z" into "Reporting a bug" and "Fixing a bug" 
+ * Add formatting information and examples for Redmine in :ref:`<bugfix-index>`
+    * how to format links
+ * Hints for how to describe a problem in an understandable way. 
+    * should "steps to reproduce" be in there?
+    * Example: https://testlio.com/blog/the-ideal-bug-report/
+      * Environment
+      * Steps to reproduce
+      * Expected result
+      * Actual result
+      * Possibly screenshot (if it helps to grasp the problem quickly)
+ * Personally, I would add another request: after submitting bug reports or patches, monitor your e-mail notifications
+   and respond quickly. 
+  
   
 Optional
 ========
@@ -40,6 +60,6 @@ Optional
 Open questions
 ===============
 
-* There is no information about bug-reporting. Should this be in this guide, is it handled somewhere else?  
+
   
   
