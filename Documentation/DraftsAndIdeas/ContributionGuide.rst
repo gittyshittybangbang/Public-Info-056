@@ -39,14 +39,6 @@ Things to add
     * Inline image: example
     * add link: https://www.redmine.org/projects/redmine/wiki/RedmineTextFormattingTextile
 * Bug reporting: Hints for how to describe a problem in an understandable way. 
-    * should "steps to reproduce" be in there?
-    * Example: https://testlio.com/blog/the-ideal-bug-report/
-       * Environment
-       * Steps to reproduce
-       * Expected result
-       * Actual result
-       * Screenshot (if it helps to grasp the problem quickly)
-    * formatting templates?  https://gist.github.com/carlo/3402842
 * Add a request: after submitting bug reports or patches, monitor your e-mail notifications
    and respond
 * botty : Add a link to botty information: https://wiki.typo3.org/T3Bot  
@@ -86,6 +78,22 @@ Nitpicky minor things
 Open questions
 ===============
 
-* Maybe more information on slack (what channels for what, Botty, basic formating hints) should be in another manual? Where?
+* Is the question of people writing better (reproducable, intelligible and nicely formated) bug reports considered important here? (Maybe ask in channel ...)
   
-  
+Drafts
+======
+
+Bug reporting
+-------------
+
+* Bug reporting: Hints for how to describe a problem in an understandable way. 
+    * should "steps to reproduce" be in there?
+    * Example: https://testlio.com/blog/the-ideal-bug-report/
+       * Environment
+       * Steps to reproduce
+       * Expected result
+       * Actual result
+       * Screenshot (if it helps to grasp the problem quickly)
+    * formatting templates?  https://gist.github.com/carlo/3402842
+    * use general common sense, all information not always required
+
