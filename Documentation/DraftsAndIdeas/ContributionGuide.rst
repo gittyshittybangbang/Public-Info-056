@@ -26,7 +26,7 @@ Things to add
   :ref:`Topic description <t3contrib:Commit-Message-Format>` like: 
 
 .. important::
-      In case you found a security issues, always get in contact with the Security Team first! Do not post information about the security leak in a public place (like the TYPO3 source code).
+      In case you found a security issues, always get in contact with the `Security Team <https://typo3.org/teams/security/>`__ first! Do not post information about the security leak in a public place. Once you push a patch, it will be publicly viewable on the review server. Do not do this for security-related things. 
 
 * Add a cheat sheet with basic info / commands (or put in  "Cheat Sheets" section?)
 * Add some handy links to useful views in the section on forger  
