@@ -79,6 +79,6 @@ Nitpicky minor things
 Open questions
 ===============
 
-
+* Maybe more information on slack (what channels for what, Botty, basic formating hints) should be in another manual? Where?
   
   
