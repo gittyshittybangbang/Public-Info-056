@@ -18,21 +18,24 @@ Additional things to add to :ref:`TYPO3 Core Contribution Guide <t3contrib:start
 * Add section howto startup TYPO3 website
 * Hints for finding place in core for source files to change (see video?)
 * Hints for testing your stuff
-* Section :ref:`Why a pre-commit hook <t3contrib:why-pre-commit-hook>` : it's not a pre-commit hook, it's commit-msg.
+* Section ":ref:`Why a pre-commit hook <why-pre-commit-hook>`" : it's not a pre-commit hook, it's a commit-msg hook.
 * Add a prominent warning / note on the information about [SECURITY] commits to contact the security team first in 
-  :ref:`Topic description <t3contrib:Commit-Message-Format>` like 
+  :ref:`Topic description <t3contrib:Commit-Message-Format>` like: 
 
 .. important::
       In case you found a security issues, always get in contact with the Security Team first! Do not post information about the security leak in a public place (like the TYPO3 source code).
 
-
 * Add a cheat sheet with basic commands (or put in  "Cheat Sheets" section?)
-* Add some examples for Phpstrom in :ref:`Setting up your IDE for CGL"  
-* More information for people only testing patches and not developing. There is a not on homestead in the gerrit section, 
-  but people not developing probably need more information.
 * Possibly provide a brief overview in the beginning what to read for what purpose:
   * testers only
   * bug reporting
+  
+Optional
+========
+
+* More information for people only testing patches and not developing. There is a note on homestead in the gerrit section, 
+  but people not developing probably need more information.
+* Add examples for Phpstorm in :ref:`Setting up your IDE for CGL"  
 
 Open questions
 ===============
