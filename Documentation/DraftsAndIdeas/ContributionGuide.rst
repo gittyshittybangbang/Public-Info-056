@@ -32,7 +32,7 @@ Things to add
 
 * Add a cheat sheet with basic info / commands (or put in  "Cheat Sheets" section?)
 * Add some handy links to useful views in the section on forger  
-* Possibly provide a brief overview in the beginning what to read for what purpose:
+* Provide a brief overview in the beginning what to read for what purpose:
    * testing
    * bug reporting
    * coding    
@@ -47,7 +47,7 @@ Things to add
       * Steps to reproduce
       * Expected result
       * Actual result
-      * Possibly screenshot (if it helps to grasp the problem quickly)
+      * Screenshot (if it helps to grasp the problem quickly)
     * formatting templates?  
 * Add a request: after submitting bug reports or patches, monitor your e-mail notifications
    and respond
