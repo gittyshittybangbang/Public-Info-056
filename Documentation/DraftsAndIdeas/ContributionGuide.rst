@@ -17,7 +17,7 @@ Things to add
 -------------
 
 * Add video from Mathias: `How to fix a bug in the core <https://www.youtube.com/watch?v=gN8BVSBlgfU>`__
-* Add section about debugging (link to info and add video from Susi)
+* Add section about debugging, add video from Susi: https://www.youtube.com/watch?v=VtffB0CG1ok&t=13s
 * Add links to: core api, coding guidelines
 * Add section howto startup TYPO3 website
 * Hints for testing your stuff
