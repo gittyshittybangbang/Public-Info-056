@@ -51,22 +51,23 @@ Things to add
     * formatting templates?  
 * Add a request: after submitting bug reports or patches, monitor your e-mail notifications
    and respond
+* botty : Add a link to botty information: https://wiki.typo3.org/T3Bot  
+* slack: provide very short info on which channel to use for what
+
 
 Structural changes
 ------------------
 
 * Move "Overview of contribution workflow" to beginning
 * Split up "Fixing a bug A-Z" into "Reporting a bug" and "Fixing a bug" 
-* Move information on slack to a seperate section (currently mentioned here https://docs.typo3.org/typo3cms/ContributionWorkflowGuide/latest/singlehtml/#fixing-a-bug-a-z and here https://docs.typo3.org/typo3cms/ContributionWorkflowGuide/BugfixingAZ/Index.html)
-    * botty : Add a link to botty information: https://wiki.typo3.org/T3Bot  
-    * provide very short info on which channel to use for what
-
+* move information on slack to a seperate section (e.g. "Getting help"), currently mentioned here
+   * https://docs.typo3.org/typo3cms/ContributionWorkflowGuide/latest/singlehtml/#fixing-a-bug-a-z 
+   * and here https://docs.typo3.org/typo3cms/ContributionWorkflowGuide/BugfixingAZ/Index.html)
+    
 Nitpicky minor things
 ---------------------
 
 * Section ":ref:`Why a pre-commit hook <why-pre-commit-hook>`" : it's not a pre-commit hook, it's a commit-msg hook.
-
-
 
 
 Open questions
