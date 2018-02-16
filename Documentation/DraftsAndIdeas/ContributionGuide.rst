@@ -46,7 +46,7 @@ Things to add
        * Expected result
        * Actual result
        * Screenshot (if it helps to grasp the problem quickly)
-    * formatting templates?  
+    * formatting templates?  https://gist.github.com/carlo/3402842
 * Add a request: after submitting bug reports or patches, monitor your e-mail notifications
    and respond
 * botty : Add a link to botty information: https://wiki.typo3.org/T3Bot  
