@@ -6,7 +6,7 @@
 TYPO3 Contribution Guide
 ========================
 
-Additional things to add to TYPO3 Core Contribution Guide
+Additional things to add to :ref:`TYPO3 Core Contribution Guide <t3contrib:start>`
 
 * Add video from Mathias: `How to fix a bug in the core <https://www.youtube.com/watch?v=gN8BVSBlgfU>`__
 * Add section about debugging, add video from Susi 
