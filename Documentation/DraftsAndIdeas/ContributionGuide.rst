@@ -3,7 +3,7 @@
 
 
 ========================
-TYPO3 Contriubtion Guide
+TYPO3 Contribution Guide
 ========================
 
 Additional things to add to TYPO3 Core Contribution Guide
