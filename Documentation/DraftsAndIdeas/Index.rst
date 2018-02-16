@@ -23,3 +23,4 @@ Drafts and Ideas for TYPO3 documentation
 
    
    Glossary
+   ContributionGuide
