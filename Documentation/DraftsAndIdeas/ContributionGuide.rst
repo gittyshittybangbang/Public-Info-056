@@ -23,8 +23,7 @@ Things to add
 * Add links to: core api, coding guidelines
 * Hints for testing your stuff
 * Add hints (only a minor section) for Phpstorm in :ref:`Setting up your IDE for CGL", e.g. "Code:Reformat code"  
-* Add a prominent warning / note on the information about [SECURITY] commits to contact the security team first in 
-  :ref:`Topic description <t3contrib:Commit-Message-Format>` like: 
+* Change the info to contact the sectteam in :ref:`Topic description <t3contrib:Commit-Message-Format>` to a really prominent warning like: 
 
 .. important::
       In case you found a security issues, always get in contact with the `Security Team <https://typo3.org/teams/security/>`__ first! Do not post information about the security leak in a public place. Once you push a patch, it will be publicly viewable on the review server. Do not do this for security-related things. 
