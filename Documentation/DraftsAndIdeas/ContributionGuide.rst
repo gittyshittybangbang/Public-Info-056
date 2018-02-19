@@ -39,7 +39,9 @@ introduction section
 
 Bug reporting
 ~~~~~~~~~~~~~
-
+ 
+* What to fill out, what to leave blank
+   * Do *not* fill out "Assignee" (to be removed shortly for people without permissions, see
 * Add formatting information and examples for Redmine in :ref:`<bugfix-index>`
     * how to format links
     * Inline image: example
