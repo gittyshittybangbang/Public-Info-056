@@ -70,14 +70,12 @@ Misc
 * Add a request: after submitting bug reports or patches, monitor your e-mail notifications and respond (kind of obvious but often not done, probably this won't help either, but at least we tried!)
 * Add section howto startup TYPO3 website (see "needs help")
 
-
 Appendix
 ~~~~~~~~
 
 * Add FAQ
 * Add a cheat sheet with basic info / commands
-* add link to https://typo3.org/community/code-of-conduct/   
-
+* add link to https://typo3.org/community/code-of-conduct/   (or maybe in section on slack?)
 
 
 Needs help
@@ -87,7 +85,7 @@ Needs help
    * There is a note on homestead in the gerrit section, check if this is up to date, provide information
    * php -S 127.0.0.1:12345
    * FIRST_INSTALL: https://docs.typo3.org/typo3cms/InstallationGuide/QuickInstall/TheInstallTool/Index.html
-
+* issue life cycle
 
 
 Structural changes
