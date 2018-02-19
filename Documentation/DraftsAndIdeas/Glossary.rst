@@ -295,16 +295,13 @@ fluid_styled_content
 
 
 
-.. _frontend:
-
-Frontend
-========
-
 
 .. _formengine:
 
 FormEngine
 ==========
+
+FormEngine aka TCEforms
 
 .. attention::
    Find a good introductory text for FormEngine. The Core API docs
@@ -320,6 +317,16 @@ used to configure how the various fields can be edited.
 See
 
 * :ref:`FormEngine <t3coreapi:FormEngine-Introduction>` (Core API)
+
+
+
+
+
+.. _frontend:
+
+Frontend
+========
+
 
 
 .. _hook:
