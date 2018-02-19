@@ -59,7 +59,7 @@ Testing for bug reporting, bug handling and testing reviews.
 Developing
 ~~~~~~~~~~
 
-* Add hints (only a minor section) for Phpstorm in :ref:`Setting up your IDE for CGL", e.g. "Code:Reformat code"  
+* Add hints (only a minor section) for Phpstorm, e.g. "Code:Reformat code"  
 * Change the info to contact the sectteam in :ref:`Topic description <t3contrib:Commit-Message-Format>` to a really prominent warning like: 
 
 .. important::
