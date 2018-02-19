@@ -18,37 +18,67 @@ If the information already exists somewhere else, link to it and do not duplicat
 Things to add
 -------------
 
+introduction section 
+~~~~~~~~~~~~~~~~~~~~
+
+
+* point people to other useful information for contributing to:
+   * extensions
+   * translation
+   * docs
+* Provide a brief overview in the beginning what to read for what purpose:
+   * testing
+   * bug reporting
+   * coding  
+* section: gettting help
+  * botty : Add a link to botty information: https://wiki.typo3.org/T3Bot  
+  * slack: provide very short info on which channel to use for what
 * Add video from Mathias: `How to fix a bug in the core <https://www.youtube.com/watch?v=gN8BVSBlgfU>`__
 * Add section about debugging, add video from Susi: https://www.youtube.com/watch?v=VtffB0CG1ok&t=13s
 * Add links to: core api, coding guidelines
+
+Bug reporting
+~~~~~~~~~~~~~
+
+* Add formatting information and examples for Redmine in :ref:`<bugfix-index>`
+    * how to format links
+    * Inline image: example
+    * add link: https://www.redmine.org/projects/redmine/wiki/RedmineTextFormattingTextile
+* Bug reporting: Hints for how to describe a problem in an understandable way. 
+
+
+Testing
+~~~~~~~
+
+Testing for bug reporting, bug handling and testing reviews.
+
 * Hints for testing your stuff
+
+Developing
+~~~~~~~~~~
+
 * Add hints (only a minor section) for Phpstorm in :ref:`Setting up your IDE for CGL", e.g. "Code:Reformat code"  
 * Change the info to contact the sectteam in :ref:`Topic description <t3contrib:Commit-Message-Format>` to a really prominent warning like: 
 
 .. important::
       In case you found a security issues, always get in contact with the `Security Team <https://typo3.org/teams/security/>`__ first! Do not post information about the security leak in a public place. Once you push a patch, it will be publicly viewable on the review server. Do not do this for security-related things. 
 
-* Add a cheat sheet with basic info / commands 
+Misc
+~~~~
+ 
 * Add some handy links to useful views in the section on forger  
-* Provide a brief overview in the beginning what to read for what purpose:
-   * testing
-   * bug reporting
-   * coding    
-* Add formatting information and examples for Redmine in :ref:`<bugfix-index>`
-    * how to format links
-    * Inline image: example
-    * add link: https://www.redmine.org/projects/redmine/wiki/RedmineTextFormattingTextile
-* Bug reporting: Hints for how to describe a problem in an understandable way. 
-* Add a request: after submitting bug reports or patches, monitor your e-mail notifications
-   and respond
-* botty : Add a link to botty information: https://wiki.typo3.org/T3Bot  
-* slack: provide very short info on which channel to use for what
+* Add a request: after submitting bug reports or patches, monitor your e-mail notifications and respond (kind of obvious but often not done, probably this won't help either, but at least we tried!)
 * Add section howto startup TYPO3 website (see "needs help")
-* also point people to information, where they can contribute to ... 
-   * extensions
-   * translation
-   * docs
+
+
+Appendix
+~~~~~~~~
+
+* Add FAQ
+* Add a cheat sheet with basic info / commands
 * add link to https://typo3.org/community/code-of-conduct/   
+
+
 
 Needs help
 ----------
