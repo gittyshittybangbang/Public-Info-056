@@ -375,6 +375,10 @@ Signal
 
 .. _system_log:
 
+Slot
+====
+
+
 System Log
 ==========
 
