@@ -32,7 +32,8 @@ introduction section
    * coding  
 * section: gettting help
    * botty : Add a link to botty information: https://wiki.typo3.org/T3Bot  
-   * slack: provide very short info on which channel to use for what
+   * slack: provide very short info on which channel to use 
+   * add link to info about user groups, events etc.
 * Add video from Mathias: `How to fix a bug in the core <https://www.youtube.com/watch?v=gN8BVSBlgfU>`__
 * Add links to: core api, coding guidelines
 
