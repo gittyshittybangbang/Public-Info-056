@@ -34,7 +34,6 @@ introduction section
    * botty : Add a link to botty information: https://wiki.typo3.org/T3Bot  
    * slack: provide very short info on which channel to use for what
 * Add video from Mathias: `How to fix a bug in the core <https://www.youtube.com/watch?v=gN8BVSBlgfU>`__
-* Add section about debugging, add video from Susi: https://www.youtube.com/watch?v=VtffB0CG1ok&t=13s
 * Add links to: core api, coding guidelines
 
 Bug reporting
@@ -55,6 +54,11 @@ Testing
 Testing for bug reporting, bug handling and testing reviews.
 
 * Hints for testing your stuff
+
+Debugging
+~~~~~~~~~
+
+* Add section about debugging, add video from Susi: https://www.youtube.com/watch?v=VtffB0CG1ok&t=13s
 
 Developing
 ~~~~~~~~~~
@@ -142,12 +146,13 @@ Q: I really need this fix now? What should I do?
 Q: Should I wait for a feature requested to be "Accepted" before I submit a patch?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Q: Should I always test bugs in all supported versions?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Q: When I report bugs, should I test them in all supported versions?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Q: I get merge conflicts on cherry-picking a patch? What should I do?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * cherry-pick onto the parent revision and rebase with master. 
 * or directly merge conflicts
+* or not cherry-pick, use checkout
 
