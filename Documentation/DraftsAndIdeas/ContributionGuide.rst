@@ -47,7 +47,7 @@ Bug reporting
     * Inline image: example
     * add link: https://www.redmine.org/projects/redmine/wiki/RedmineTextFormattingTextile
 * Bug reporting: Hints for how to describe a problem in an understandable way. 
-
+* Add diagram: issue life cycle
 
 Testing
 ~~~~~~~
@@ -127,3 +127,13 @@ Bug reporting
     * formatting templates?  https://gist.github.com/carlo/3402842
     * use general common sense, all information not always required
 
+FAQ
+---
+
+Q: My bug report is not getting any attention. What should I do?
+
+Q: Should I wait for a feature requested to be "Accepted" before I submit a patch?
+
+Q: Should I always test bugs in all supported versions?
+
+Q: 
