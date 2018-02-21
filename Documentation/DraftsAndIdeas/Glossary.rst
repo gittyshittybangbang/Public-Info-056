@@ -353,6 +353,12 @@ Mount Point
 ===========
 
 
+.. _page_overlay:
+
+
+Page Overlay
+============
+
 
 
 .. _plugins:
