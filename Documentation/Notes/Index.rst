@@ -45,6 +45,11 @@ TYPO3 Documentation Team
 
 * `T3DocTeam writing here <https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-Info-054/Index.html>`__
 
+Links for Fluid
+===============
+
+* https://usetypo3.com/24-fluid-tips.html
+
 Typo3.org
 =========
 
