@@ -44,3 +44,8 @@ TYPO3 Documentation Team
 =========================
 
 * `T3DocTeam writing here <https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-Info-054/Index.html>`__
+
+Typo3.org
+=========
+
+* `Server status <https://status.typo3.org/>`__
