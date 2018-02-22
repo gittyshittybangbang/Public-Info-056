@@ -26,13 +26,19 @@ introduction section
    * extensions
    * translation
    * docs
+   * serverteam
+   * security team
+   * etc. 
 * Provide a brief overview in the beginning what to read for what purpose:
    * testing
    * bug reporting
    * coding  
 * section: gettting help
    * botty : Add a link to botty information: https://wiki.typo3.org/T3Bot  
-   * slack: provide very short info on which channel to use 
+   * slack: provide very short info on which channel to use / watch for what
+      * typo3-cms-issues
+      * typo3-cms : support
+      * typo3-cms-coredev : core development
    * add link to info about user groups, events etc.
 * Add video from Mathias: `How to fix a bug in the core <https://www.youtube.com/watch?v=gN8BVSBlgfU>`__
 * Add links to: core api, coding guidelines
