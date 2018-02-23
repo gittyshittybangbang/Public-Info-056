@@ -55,6 +55,20 @@ Bug reporting
 * Bug reporting: Hints for how to describe a problem in an understandable way. 
 * Add diagram: issue life cycle
 
+Setting up phpstorm
+~~~~~~~~~~~~~~~~~~~
+
+Coding Guidelines
+
+useful plugins:
+
+* DynamicReturnTypePlugin
+* Php Inspections (EA Extended) 
+* TYPO3 CMS Plugin ?
+* TYPO3 XLIFF Utility ?
+* TypoScript Plugin ?
+
+
 Testing
 ~~~~~~~
 
