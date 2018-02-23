@@ -9,8 +9,7 @@ Ideas and Suggestions
   * linguistically correct (spelling, grammar, style, does it sound like native English?)
   * technically correct
   * comprehensible, easy to read
-  * complete (if a new concept is introduced, is the documentation sufficient to 
-    understand the concept?)
+  * complete (if a new concept is introduced, is the documentation sufficient to understand the concept?)
 
 * Use a consistent set of labels in TYPO3 documentation github projects for issues, e.g.
   * needs_editing_techi (editing required: technically correct?)
@@ -22,8 +21,7 @@ Ideas and Suggestions
 * find a workflow to work on TYPO3 documentation, preferably something including a review
   process
   * how can manuals / individual pages be marked as "done", "needs work", etc
-  * it would be preferable to have several people proofread / review documentation, how
-    could this be coordinated?
+  * it would be preferable to have several people proofread / review documentation, how could this be coordinated?
     
 * What should be documented and what should go into which manual? What is missing?
   * rename "Core API" (as already mentioned in channel)
@@ -35,10 +33,7 @@ Ideas and Suggestions
  
 * Improve landing pages
   * improve start page docs.typo3.org
-    * Seperation of Guides and References helpful? (Example: if someone is starting with
-    TYPO3, they would probably look in the Guides and Tutorials section first, but they
-    won't find anything helpful there if they want the technical documentation, should
-    probably start with "Core API")
+    * Seperation of Guides and References helpful? 
  
  * Things that could generally be improved:
   * sometimes the docs are great for details, but introductory text is missing
