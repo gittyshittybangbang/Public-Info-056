@@ -58,15 +58,28 @@ Bug reporting
 Setting up phpstorm
 ~~~~~~~~~~~~~~~~~~~
 
-Coding Guidelines
+* Settings / Default settings
+* Coding Guidelines
+   * PSR-2 
+* useful plugins:
+   * DynamicReturnTypePlugin
+   * Php Inspections (EA Extended) 
+   * TYPO3 CMS Plugin ?
+   * TYPO3 XLIFF Utility ?
+   * TypoScript Plugin ?
 
-useful plugins:
+See:
 
-* DynamicReturnTypePlugin
-* Php Inspections (EA Extended) 
-* TYPO3 CMS Plugin ?
-* TYPO3 XLIFF Utility ?
-* TypoScript Plugin ?
+* https://wiki.typo3.org/Development/PHPStorm_Settings
+
+Developing
+~~~~~~~~~~
+
+* Add hints (only a minor section) for Phpstorm, e.g. "Code:Reformat code"  
+* Change the info to contact the sectteam in :ref:`Topic description <t3contrib:Commit-Message-Format>` to a really prominent warning like: 
+
+.. important::
+      In case you found a security issues, always get in contact with the `Security Team <https://typo3.org/teams/security/>`__ first! Do not post information about the security leak in a public place. Once you push a patch, it will be publicly viewable on the review server. Do not do this for security-related things. 
 
 
 Testing
@@ -81,14 +94,6 @@ Debugging
 
 * Add section about debugging, add video from Susi: https://www.youtube.com/watch?v=VtffB0CG1ok&t=13s
 
-Developing
-~~~~~~~~~~
-
-* Add hints (only a minor section) for Phpstorm, e.g. "Code:Reformat code"  
-* Change the info to contact the sectteam in :ref:`Topic description <t3contrib:Commit-Message-Format>` to a really prominent warning like: 
-
-.. important::
-      In case you found a security issues, always get in contact with the `Security Team <https://typo3.org/teams/security/>`__ first! Do not post information about the security leak in a public place. Once you push a patch, it will be publicly viewable on the review server. Do not do this for security-related things. 
 
 Misc
 ~~~~
