@@ -21,7 +21,7 @@ Things to add
 introduction section 
 ~~~~~~~~~~~~~~~~~~~~
 
-
+* scope of this manual
 * point people to other useful information for contributing to:
    * extensions
    * translation
