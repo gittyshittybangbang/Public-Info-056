@@ -2,9 +2,9 @@
 .. include:: ../Includes.txt
 
 
-========================
-TYPO3 Contribution Guide
-========================
+==========================
+Contribution Guide (Notes)
+==========================
 
 Todos
 =====
