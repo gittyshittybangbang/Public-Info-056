@@ -24,3 +24,4 @@ Contribution Guide
 
    
    Notes
+   SettingUpPhpstorm
