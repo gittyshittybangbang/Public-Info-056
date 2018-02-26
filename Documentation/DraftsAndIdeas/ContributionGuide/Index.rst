@@ -15,9 +15,9 @@
 .. The following, first section (= headline) is the 'Document Title'.
 
 
-=======================================
-Drafts and Ideas for Contribution Guide
-=======================================
+==================
+Contribution Guide
+==================
 
 .. toctree::
    :hidden:
