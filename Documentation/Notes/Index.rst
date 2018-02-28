@@ -6,10 +6,13 @@
 Sybille's Notes
 ===============
 
+Useful links
+============
 
-TYPO3 Documentation Team
-=========================
+TYPO3 Documentation
+-------------------
 
+* `Using docker for rendering TYPO3 locally <https://github.com/t3docs/docker-render-documentation>`__
 * `T3DocTeam writing here <https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-Info-054/Index.html>`__
 * `Open pull requests <https://docs.typo3.org/services/GithubPullRequests/>`__
 
