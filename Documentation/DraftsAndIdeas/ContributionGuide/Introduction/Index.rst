@@ -18,7 +18,7 @@
 .. important::
       The Introduction chapter was written from scratch. Please review carefully.
 
-current status: Pull Request submitted:
+current status: Pull Request submitted: https://github.com/TYPO3-Documentation/TYPO3CMS-Guide-ContributionWorkflow/pull/35
 
 Once published, it will be available: https://docs.typo3.org/typo3cms/ContributionWorkflowGuide/Introduction/Index.html
 
