@@ -29,7 +29,7 @@ Recommended Plugins
 
 * DynamicReturnTypePlugin
 * Php Inspections (EA Extended)
-* TYPO3 CMS Plugin ?
+* TYPO3 CMS Plugin : https://plugins.jetbrains.com/plugin/9496-typo3-cms-plugin
 * TYPO3 XLIFF Utility ?
 * TypoScript Plugin ?
 
