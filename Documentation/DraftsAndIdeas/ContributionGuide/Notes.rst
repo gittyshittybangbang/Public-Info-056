@@ -18,28 +18,9 @@ If the information already exists somewhere else, link to it and do not duplicat
 Things to add
 -------------
 
-introduction section 
-~~~~~~~~~~~~~~~~~~~~
+Getting started
+~~~~~~~~~~~~~~~
 
-* scope of this manual
-* point people to other useful information for contributing to:
-   * extensions
-   * translation
-   * docs
-   * serverteam
-   * security team
-   * etc. 
-* Provide a brief overview in the beginning what to read for what purpose:
-   * testing
-   * bug reporting
-   * coding  
-* section: gettting help
-   * botty : Add a link to botty information: https://wiki.typo3.org/T3Bot  
-   * slack: provide very short info on which channel to use / watch for what
-      * typo3-cms-issues
-      * typo3-cms : support
-      * typo3-cms-coredev : core development
-   * add link to info about user groups, events etc.
 * Add video from Mathias: `How to fix a bug in the core <https://www.youtube.com/watch?v=gN8BVSBlgfU>`__
 * Add links to: core api, coding guidelines
 
@@ -55,31 +36,17 @@ Bug reporting
 * Bug reporting: Hints for how to describe a problem in an understandable way. 
 * Add diagram: issue life cycle
 
-Setting up phpstorm
-~~~~~~~~~~~~~~~~~~~
-
-* Settings / Default settings
-* Coding Guidelines
-   * PSR-2 
-* useful plugins:
-   * DynamicReturnTypePlugin
-   * Php Inspections (EA Extended) 
-   * TYPO3 CMS Plugin ?
-   * TYPO3 XLIFF Utility ?
-   * TypoScript Plugin ?
-
-See:
-
-* https://wiki.typo3.org/Development/PHPStorm_Settings
-
 Developing
 ~~~~~~~~~~
 
-* Add hints (only a minor section) for Phpstorm, e.g. "Code:Reformat code"  
-* Change the info to contact the sectteam in :ref:`Topic description <t3contrib:Commit-Message-Format>` to a really prominent warning like: 
 
-.. important::
-      In case you found a security issues, always get in contact with the `Security Team <https://typo3.org/teams/security/>`__ first! Do not post information about the security leak in a public place. Once you push a patch, it will be publicly viewable on the review server. Do not do this for security-related things. 
+Writing tests
+~~~~~~~~~~~~~
+
+* Link to blog articles: https://typo3.com/blog/testing-typo3s-core-part-i-infrastructure
+
+Some information about the testing framework
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 Testing
@@ -99,7 +66,6 @@ Misc
 ~~~~
  
 * Add some handy links to useful views in the section on forger  
-* Add a request: after submitting bug reports or patches, monitor your e-mail notifications and respond (kind of obvious but often not done, probably this won't help either, but at least we tried!)
 * Add section howto startup TYPO3 website (see "needs help")
 
 Appendix
@@ -133,6 +99,12 @@ Nitpicky minor things
 ---------------------
 
 * Section ":ref:`Why a pre-commit hook <why-pre-commit-hook>`" : it's not a pre-commit hook, it's a commit-msg hook.
+
+* Change the info to contact the sectteam in :ref:`Topic description <t3contrib:Commit-Message-Format>` to a really prominent warning like:
+
+.. important::
+      In case you found a security issues, always get in contact with the `Security Team <https://typo3.org/teams/security/>`__ first! Do not post information about the security leak in a public place. Once you push a patch, it will be publicly viewable on the review server. Do not do this for security-related things.
+
 
 
 Open questions

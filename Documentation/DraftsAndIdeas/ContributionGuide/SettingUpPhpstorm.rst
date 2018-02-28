@@ -19,12 +19,19 @@ General Setup
 Coding Guidelines
 -----------------
 
+* PSR-2
+* use Code: Reformat Code (if necessary)
+
+Link to coding guidelines
 
 Recommended Plugins
 ====================
 
 * DynamicReturnTypePlugin
 * Php Inspections (EA Extended)
+* TYPO3 CMS Plugin ?
+* TYPO3 XLIFF Utility ?
+* TypoScript Plugin ?
 
 Writing Tests
 =============
@@ -34,3 +41,8 @@ Writing Tests
    * Path to script: vendor/autoload.php
    * Test runner: Defaut configuration file: vendor/typo3/testing-framework/Resources/Core/Build/UnitTests.xml
    * Test Runner: Default bootstrap file: vendor/typo3/testing-framework/Resource/Core/Build/UnitTestsBootstrap.php
+
+
+See:
+
+* https://wiki.typo3.org/Development/PHPStorm_Settings
