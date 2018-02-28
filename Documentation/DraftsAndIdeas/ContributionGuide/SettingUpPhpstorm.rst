@@ -1,5 +1,9 @@
 .. include:: ../../Includes.txt
 
+.. important::
+This chapter was written from scratch. Please review carefully.
+
+current status: Very rough draft. Still needs more work!
 
 ====================================
 Draft: Setting up and using Phpstorm

@@ -135,6 +135,25 @@ References:
 
 * `Tables <http://www.sphinx-doc.org/en/stable/rest.html#tables/>`__
 
+
+Images
+======
+
+Apparently, floating images are not possible? https://stackoverflow.com/questions/16463051/how-to-create-floating-figures-in-restructuredtext-sphinx
+
+But it seems to work ...
+
+.. highlight:: rst
+
+::
+
+   .. image:: _assets/slack.png
+   :width: 200px
+   :align: left
+   :height: 100px
+   :alt: Register for TYPO3's Slack Platform
+
+
 References
 ==========
 
