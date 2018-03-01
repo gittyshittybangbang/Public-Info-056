@@ -29,6 +29,7 @@ Automatic bolding of bullet items
 =================================
 
 * this is a bullet list (line 1)
+
   * this is a bullet sublist
 * some more text (line 2)
 
@@ -36,6 +37,9 @@ Automatic bolding of bullet items
 * another bullet list
 * this is a bullet sublist
 * some more text
+
+* This is not a bullet list but a DT item of a DL
+  * This is the DD
 
 
 **See:**
