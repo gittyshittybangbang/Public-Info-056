@@ -2,7 +2,7 @@
    so we can change the definition at a single place. Use the relative path to the Includes.txt file,
    which may look as well like ../../../Includes.txt for a deeply nested source file.
 
-.. include:: Includes.txt
+.. include:: ../Includes.txt
 
 
 .. Usually we define 'php' as default highlight language in Includes.txt.
@@ -13,9 +13,9 @@
 
 .. The following, first section (= headline) is the 'Document Title'.
 
-================================
-Sphinx for TYPO3 Hints: Overview
-================================
+==========================================
+Sphinx for TYPO3 Hints: Overview (Sybille)
+==========================================
 
 
 Some **bold** and *italic* Text.

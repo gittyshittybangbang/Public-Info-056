@@ -69,9 +69,8 @@ TYPO3 optimizes performance by using a sophisticated caching system. This is hig
 
 See
 
-* :ref:`Caching Framework <t3coreapi:caching>`__
-* `Stackoverflow: What are the different kind of caches?
- <https://stackoverflow.com/questions/27320922/typo3-what-are-the-different-kind-of-caches>`__
+* :ref:`Caching Framework <t3coreapi:caching>`
+* `Stackoverflow: What are the different kind of caches? <https://stackoverflow.com/questions/27320922/typo3-what-are-the-different-kind-of-caches>`__
 
 
 .. _ckeditor:
@@ -88,6 +87,7 @@ Ckeditor is configured with Yaml files.
 See
 
 * TYPO3 Worx: `The new CKeditor in TYPO3 : A configuration tutorial <https://typo3worx.eu/2017/02/configure-ckeditor-in-typo3/>`__
+
 
 .. _composer:
 

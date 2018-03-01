@@ -1,5 +1,5 @@
 
-.. include:: ../Includes.txt
+.. include:: ../../Includes.txt
 
 
 ==========================
@@ -29,7 +29,7 @@ Bug reporting
  
 * What to fill out, what to leave blank
    * Do *not* fill out "Assignee" (to be removed shortly for people without permissions, see
-* Add formatting information and examples for Redmine in :ref:`<bugfix-index>`
+* Add formatting information and examples for Redmine
     * how to format links
     * Inline image: example
     * add link: https://www.redmine.org/projects/redmine/wiki/RedmineTextFormattingTextile

@@ -3,7 +3,7 @@
    so we can change the definition at a single place. Use the relative path to the Includes.txt file,
    which may look as well like ../../../Includes.txt for a deeply nested source file.
 
-.. include:: ../../Includes.txt
+.. include:: ../../../Includes.txt
 
 
 .. Usually we define 'php' as default highlight language in Includes.txt.
@@ -80,7 +80,7 @@ Also checkout the help page on `"Botty" <https://wiki.typo3.org/T3Bot>`__, the T
 some of its commands later in this manual.
 
 .. note::
-You cannot use Botty in your private channel or in a direct messaging channel with someone else. Botty will
+      You cannot use Botty in your private channel or in a direct messaging channel with someone else. Botty will
       only be available in a public channel, to which it has been invited (which is the case in #typo3-cms-coredev).
 
 

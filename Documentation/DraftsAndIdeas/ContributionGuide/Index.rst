@@ -25,4 +25,4 @@ Contribution Guide
    
    Notes
    Introduction/Index
-   SettingUpPhpstorm
+   SettingUpPhpstorm/Index

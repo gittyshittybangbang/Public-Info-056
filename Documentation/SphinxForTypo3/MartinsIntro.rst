@@ -9,7 +9,7 @@
    so we can change the definition at a single place. Use the relative path to the Includes.txt file,
    which may look as well like ../../../Includes.txt for a deeply nested source file.
 
-.. include:: Includes.txt
+.. include:: ../Includes.txt
 
 
 .. Usually we define 'php' as default highlight language in Includes.txt.
@@ -107,8 +107,8 @@ What's it about?
      ```buildinfo <_buildinfo>`__`` It should show up and work like this: 
      `buildinfo <_buildinfo>`__
      
-   - I've added the chapters (=subfolder) :doc:`Hyperlinks </Hyperlinks/Index>` and
-     :doc:`reStructuredText </reStructuredText/Index>` just to give you some help.
+   - I've added the chapters (=subfolder) :doc:`Hyperlinks </SphinxForTypo3/Hyperlinks>` and
+     :doc:`reStructuredText </SphinxForTypo3/reStructuredText>` just to give you some help.
      You can of course delete or rename them as you like.
      
 If more comes into my mind I'll add that to the `master template of this starter project`__.
@@ -135,7 +135,7 @@ Martin_
    underscores, will consume the next of the following links.
 
 __ https://docs.typo3.org/typo3cms/RenderTYPO3DocumentationGuide/ProjectsOnGithub/Index.html
-__ https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-Info-000/reStructuredText/Index.html
+__ https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-Info-000/SphinxForTypo3/reStructuredText/Index.html
 __ https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-Info-000/
 
 
@@ -204,8 +204,8 @@ Worum geht's?
      einen Link ein: ```buildinfo <_buildinfo>`__`` Der sollte dann so funktionieren: 
      `buildinfo <_buildinfo>`__
      
-   - Die Kapitel (=Unterordner) :doc:`Hyperlinks </Hyperlinks/Index>` und
-     :doc:`reStructuredText </reStructuredText/Index>` sollen Hilfestellung beim Einstieg
+   - Die Kapitel (=Unterordner) :doc:`Hyperlinks </SphinxForTypo3/Hyperlinks>` und
+     :doc:`reStructuredText </SphinxForTypo3/reStructuredText>` sollen Hilfestellung beim Einstieg
      sein. Sie können natürlich bedenkenlos gelöscht werden.
      
 Wenn mir mehr einfällt oder Fragen auftauchen schreibe ich mehr in der
@@ -238,7 +238,7 @@ Martin_
    gebildet wird, verbraucht den nächsten aus dieser Liste.
 
 __ https://docs.typo3.org/typo3cms/RenderTYPO3DocumentationGuide/ProjectsOnGithub/Index.html
-__ https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-Info-000/reStructuredText/Index.html
+__ https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-Info-000/SphinxForTypo3/reStructuredText.html
 __ https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-Info-000/
 
 
