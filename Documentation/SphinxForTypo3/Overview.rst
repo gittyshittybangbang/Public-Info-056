@@ -154,6 +154,43 @@ But it seems to work ...
    :alt: Register for TYPO3's Slack Platform
 
 
+.. _overview-bullets:
+
+Bullet lists, paragraphs, DT and DD
+===================================
+
+This is a paragraph.
+Second sentence of same paragraph.
+
+This is not a paragraph. (but a DT)
+ Second sentence.
+
+This is the first DT (definition term) of a new DL (definition list).
+   This is the DD (definition description.
+
+This is a DT (definition term) of a DL (definition list).
+   * This is the DD (definition description. And it is a new UL.
+
+* This bullet list starts with a DT item of a DL
+    * This is a new UL which makes up the DD.
+
+* this is a bullet list (line 1)
+
+  * this is a bullet sublist
+
+* some more text (line 2)
+
+
+* another bullet list
+* some more text
+
+
+
+**See:**
+
+* `list and bullets <http://openalea.gforge.inria.fr/doc/openalea/doc/_build/html/source/sphinx/rest_syntax.html#list-and-bullets>`__
+
+
 References
 ==========
 
