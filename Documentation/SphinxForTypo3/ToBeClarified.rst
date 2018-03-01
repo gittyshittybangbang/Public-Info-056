@@ -29,7 +29,7 @@ Automatic bolding of bullet items
 =================================
 
 * This is not a bullet list but a DT item of a DL
-  * This is the DD
+    * This is the DD
 
 ..
 
