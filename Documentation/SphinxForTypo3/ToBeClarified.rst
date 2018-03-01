@@ -29,15 +29,7 @@ Automatic bolding of bullet items
 =================================
 
 * this is a bullet list (line 1)
-
-
-
-
-
-
-
-
-   * this is a bullet sublist
+  * this is a bullet sublist
 * some more text (line 2)
 
 
