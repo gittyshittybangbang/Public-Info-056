@@ -28,10 +28,14 @@ To be clarified
 Automatic bolding of bullet items
 =================================
 
-* This is not a bullet list but a DT item of a DL
-    * This is the DD
+This is the first DT (definition term) of a new DL (definition list).
+   This is the DD (definition description.
 
-..
+This is a DT (definition term) of a DL (definition list).
+   * This is the DD (definition description. And it is a new UL.
+
+* This bullet list starts with a DT item of a DL
+    * This is a new UL which makes up the DD.
 
 * this is a bullet list (line 1)
 
