@@ -29,6 +29,7 @@ Resources for documenting TYPO3:
 
    
    MartinsIntro
-   Overview
    Hyperlinks
    reStructuredText
+   Overview
+   ToBeClarified
