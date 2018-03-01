@@ -28,6 +28,12 @@ To be clarified
 Automatic bolding of bullet items
 =================================
 
+This is a paragraph.
+Second sentence of same paragraph.
+
+This is not a paragraph. (but a DT)
+ Second sentence.
+
 This is the first DT (definition term) of a new DL (definition list).
    This is the DD (definition description.
 
