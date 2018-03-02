@@ -36,6 +36,10 @@ Bug reporting
 * Bug reporting: Hints for how to describe a problem in an understandable way. 
 * Add diagram: issue life cycle
 
+
+Examples:
+* Example for bug report with video (animated gif): https://forge.typo3.org/issues/84089
+
 Developing
 ~~~~~~~~~~
 
