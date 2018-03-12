@@ -24,5 +24,4 @@ Contribution Guide
 
    
    Notes
-   Introduction/Index
-   SettingUpPhpstorm/Index
+   RenderingGuide

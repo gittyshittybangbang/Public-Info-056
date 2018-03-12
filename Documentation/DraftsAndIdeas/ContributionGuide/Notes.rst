@@ -22,7 +22,6 @@ Getting started
 ~~~~~~~~~~~~~~~
 
 * Add video from Mathias: `How to fix a bug in the core <https://www.youtube.com/watch?v=gN8BVSBlgfU>`__
-* Add links to: core api, coding guidelines
 
 Bug reporting
 ~~~~~~~~~~~~~
