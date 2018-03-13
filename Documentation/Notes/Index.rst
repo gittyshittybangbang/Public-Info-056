@@ -15,6 +15,7 @@ TYPO3 Documentation
 * `Using docker for rendering TYPO3 locally <https://github.com/t3docs/docker-render-documentation>`__
 * `T3DocTeam writing here <https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-Info-054/Index.html>`__
 * `Open pull requests <https://docs.typo3.org/services/GithubPullRequests/>`__
+* Settings.cfg: https://github.com/TYPO3-Documentation/typo3-docs-typo3-org-resources/blob/master/userroot/scripts/bin/conf-2015-10.Reference.Settings.cfg
 
 TYPO3 core
 ==========
