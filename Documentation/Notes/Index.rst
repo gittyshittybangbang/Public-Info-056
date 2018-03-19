@@ -36,8 +36,15 @@ PHP
 ---
 
 * PHP 5.6 new features : http://php.net/manual/en/migration56.new-features.php
-* PHP 7.0 new features : http://php.net/manual/en/migration70.new-features.php
-* PHP 7.1 new features : http://php.net/manual/en/migration71.new-features.php
+* PHP 7.0 new features
+  (`Return type declarations <http://php.net/manual/en/migration70.new-features.php#migration70.new-features.return-type-declarations>`__, 
+  ...)
+  : http://php.net/manual/en/migration70.new-features.php
+* PHP 7.1 new features 
+  (`Nullable types <http://php.net/manual/en/migration71.new-features.php#migration71.new-features.nullable-types>`__, 
+   `Void functions <http://php.net/manual/en/migration71.new-features.php#migration71.new-features.void-functions>`__,
+   `Multi catch exception handling <http://php.net/manual/en/migration71.new-features.php#migration71.new-features.mulit-catch-exception-handling>`__, ...
+  ) : http://php.net/manual/en/migration71.new-features.php
 * PHP 7.2 new features : http://php.net/manual/en/migration72.new-features.php
 
 Testing
