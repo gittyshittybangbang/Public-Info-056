@@ -20,6 +20,8 @@ TYPO3 Documentation
 TYPO3 core
 ==========
 
+* `TYPO3 Roadmap <https://typo3.org/typo3-cms/roadmap/>`__
+
 QueryBuilder
 -------------
 
