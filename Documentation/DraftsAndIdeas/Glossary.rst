@@ -8,9 +8,9 @@
    1. Check: When we talk about TYPO3 core, do we mean the entire TYPO3
    source or just the "core" sysext in the source?
 
-==============
-TYPO3 Glossary
-==============
+=====================
+DRAFT: TYPO3 Glossary
+=====================
 
 Overview of basic terms, acronyms and hashtags used throughout the TYPO3 documentation
 and TYPO3 community.

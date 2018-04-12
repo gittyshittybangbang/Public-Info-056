@@ -23,6 +23,7 @@ Drafts and Ideas for TYPO3 documentation
 
    
    Glossary
-   ContributionGuide/Index
+   ContribGuideFaqForge
+   ContribGuideHowToWriteABugReport
+   ContribGuideNotes
    Missing
-   GeneralThings
