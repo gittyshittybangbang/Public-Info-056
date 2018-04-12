@@ -138,22 +138,4 @@ Bug reporting
 FAQ
 ---
 
-Q: My bug report is not getting the attention it deserves. What should I do?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Q: I really need this fix now? What should I do? 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Q: Should I wait for a feature requested to be "Accepted" before I submit a patch?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Q: When I report bugs, should I test them in all supported versions?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Q: I get merge conflicts on cherry-picking a patch? What should I do?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* cherry-pick onto the parent revision and rebase with master. 
-* or directly merge conflicts
-* or not cherry-pick, use checkout
-
+moved ... (see index)

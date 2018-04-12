@@ -32,4 +32,4 @@ Resources for documenting TYPO3:
    Hyperlinks
    reStructuredText
    Overview
-   ToBeClarified
+

@@ -27,7 +27,8 @@ https://github.com/TYPO3-Documentation/TYPO3CMS-Guide-ContributionWorkflow/pull/
 
 Dort steht auch, was sich geändert hat. Im Wesentlichen sind einige Kapitel dazugekommen.
 
-Wenn der PR noch nicht gemerged wurde, kann man folgendendermaßen vorgehen, um sich den aktuellen Stand lokal zu rendern (da es ziemlich mühselig ist, sich die diffs anzusehen).
+Wenn der PR noch nicht gemerged wurde, kann man folgendendermaßen vorgehen, um sich den aktuellen Stand lokal zu rendern
+(da es ziemlich mühselig ist, sich die diffs anzusehen).
 
 Wie sonst auch üblich clonen:
 
