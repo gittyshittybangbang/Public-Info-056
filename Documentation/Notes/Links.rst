@@ -79,3 +79,13 @@ Typo3.org
 =========
 
 * `Server status <https://status.typo3.org/>`__
+
+Stackoverflow
+=============
+
+Interesting answers:
+
+* `Oliver Hader: "Show all computation steps in PHP" <https://stackoverflow.com/a/49613105/2444812>`__
+* `Mysticial: "Why is it faster to process a sorted array than an unsorted array?" <https://stackoverflow.com/a/11227902/2444812>`__
+
+
