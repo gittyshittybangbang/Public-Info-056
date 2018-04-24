@@ -13,9 +13,9 @@
 
 .. The following, first section (= headline) is the 'Document Title'.
 
-================
-Sphinx for TYPO3
-================
+=======================
+reST / Sphinx for TYPO3
+=======================
 
 Resources for documenting TYPO3:
 
