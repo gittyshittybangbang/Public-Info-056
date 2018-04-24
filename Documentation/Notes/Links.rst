@@ -12,15 +12,29 @@ Links and helpful reading
 TYPO3 Documentation
 ===================
 
+Links to Github 
+---------------
+
+* Github Tip: Show all open *issues* in organization TYPO3-Documentation on *Github*, sort by "Recently updated":
+https://github.com/search?o=desc&q=org%3ATYPO3-Documentation+type%3Aissue&s=updated&state=open&type=Issues
+* `Open pull requests <https://docs.typo3.org/services/GithubPullRequests/>`__
+
+Docs on TYPO3 Docs
+------------------
+
 * `Using docker for rendering TYPO3 locally <https://github.com/t3docs/docker-render-documentation>`__
 * `T3DocTeam writing here <https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-Info-054/Index.html>`__
-* `Open pull requests <https://docs.typo3.org/services/GithubPullRequests/>`__
+
+Misc
+----
+
 * Settings.cfg: https://github.com/TYPO3-Documentation/typo3-docs-typo3-org-resources/blob/master/userroot/scripts/bin/conf-2015-10.Reference.Settings.cfg
 
 TYPO3 core
 ==========
 
 * `TYPO3 Roadmap <https://typo3.org/typo3-cms/roadmap/>`__
+* `TYPO3 Core Development - Strategic Initiatives <
 
 QueryBuilder
 -------------
