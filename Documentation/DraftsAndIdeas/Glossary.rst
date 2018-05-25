@@ -101,7 +101,7 @@ Composer is a tool for dependency management in PHP. It can be used
 to setup / manage a TYPO3 installation including the required 
 extensions (and their dependencies). Currently, there is more than 
 one way to setup a TYPO3 installation. It can be done with composer 
-or without. The recommended way is to use composer
+or without. The new (and recommended) way is to use composer
 
 See
 
@@ -132,6 +132,7 @@ TYPO3 Core can mean one of two things:
 css_styled_content
 ==================
 
+Outdated, see :ref: `fluid_styled_content`.
 
 .. _datahandler:
 
@@ -293,6 +294,21 @@ fluid_styled_content
 ====================
 
 
+.. _form-framework:
+
+Form
+====
+
+aka Form Framework, aka EXT:form
+
+.. todo: clarify : 
+.. - formengine
+.. _ formhandler
+.. _ form
+.. - form framework (see #cig-formframework on slack)
+
+
+.. question: is EXT:form = form framework?
 
 
 
@@ -391,16 +407,18 @@ that may be executed via the scheduler.
 Signal
 ======
 
-.. _system_log:
+
 
 Slot
 ====
 
 
+.. _system_log:
+
 System Log
 ==========
 
-
+sys_log
 
 .. _t3dd:
 
@@ -424,9 +442,10 @@ TCA
 
 :ref:`TCA <t3tca:introduction>`  = Table Configuration Array
 
-.. The following sentence was copied almost verbatim from the tca reference. The rest was added later. See the provided link. Feel free to modify and improve. 
+.. The following sentence was copied almost verbatim from the tca reference. 
+.. The rest was added later. See the provided link. Feel free to modify and improve. 
 
-A global array $GLOBALS['TCA']. which extends the definition of 
+A global array :php:`$GLOBALS['TCA']` which extends the definition of 
 database tables beyond what can be done strictly with SQL.
 
 
@@ -463,7 +482,7 @@ Deprecated term, see :ref:`datahandler`.
 
 .. _tceform:
 
-TCEform
+TCEFORM
 =======
 
 
@@ -472,11 +491,14 @@ TCEform
 Template
 ========
 
-In the context of TYPO3, template can mean one of many things:
+In the context of TYPO3, template can mean any of these things:
 
-* a :ref:`typoscript` template, which is a set of TypoScript configuration connected to a specific page (and it's subpages)
-* a :ref:`fluid` template file defining how a plugin / content element / page is to be rendered
-* the general process of using a template as a general blueprint for the site layout. The template contains static parts and dynamic parts that will be filled differently for each page
+* A :ref:`typoscript` template, which is a set of TypoScript configuration connected 
+  to a specific page (and it's subpages)
+* A :ref:`fluid` template file defining how a plugin / content element / page is to be 
+  rendered
+* (not TYPO3 specific) The general process of using a template as a general blueprint for the site layout. The 
+  template contains static parts and dynamic parts that will be filled differently for each page
 
 
 .. _ter:
@@ -488,11 +510,18 @@ TER
 
 Extensions that are supplied by 3rdparties and that are not shipped with TYPO3 are hosted in the TER. The TER web interface supplies information about each extension (e.g. Link to the documentation, TYPO3 version support).
 
+The TER used to be the central repository for Extensions. Nowaday, it is recommended 
+to use :ref:`composer` and the extensions are downloaded from resources like packagist. 
+
 .. _tsconfig:
 
 TSConfig
 ========
 
+TSconfig can be page TSconfig (specific to a page and it's subpages) 
+or user TSconfig (specific to a Backend user or Backend group). 
+
+It is used to configure the TYPO3 backend. 
 
 .. tsfe:
 
@@ -572,3 +601,7 @@ Just a few examples of what can be done with TypoScript:
 
 USER / USER_INT
 ===============
+
+
+(Fluid) ViewHelper
+==================
