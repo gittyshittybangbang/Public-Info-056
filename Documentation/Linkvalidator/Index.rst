@@ -19,6 +19,21 @@ Linkvalidator
 =============
 
 * Core extension: typo3/sysext/linkvalidator
+* `Official Linkvalidator documentation <https://docs.typo3.org/typo3cms/extensions/linkvalidator/Index.html>`__
 * Slack channel `#linkvalidator-rewrite <https://typo3.slack.com/messages/CAEND116H>`__
 * TYPO3 forge isue: `Epic #85006 <https://forge.typo3.org/issues/85006>`__
 * WIP github `linkvalidator branch basic-rewrite-sybille <https://github.com/wmdbMattes/linkvalidator/tree/basic-rewrite-sybille>`__
+
+Current status
+==============
+
+* some bugs and patches pending
+* Usability for editors should be improved
+
+Current plan
+============
+
+* Fix bugs for TYPO3 v9 + TYPO3 v8
+* Add Tests
+* Rewrite with Fluid (reuse current functionality) for TYPO3 9 only
+* 
