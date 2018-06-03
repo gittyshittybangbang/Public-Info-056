@@ -48,7 +48,7 @@ __ https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-I
    SphinxForTypo3/Index.rst
    Notes/Links.rst
    Howtos/Index.rst
-   Testing/Test.rst
+   WritingTests/Test.rst
    Linkvalidator/Index
    
 
