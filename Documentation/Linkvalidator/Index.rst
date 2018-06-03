@@ -39,6 +39,10 @@ Current status
 ==============
 
 * some bugs and patches pending
+
+   * `#85067 <https://forge.typo3.org/issues/85067>`__ : Exception gets thrown while checking links for some links with redirects
+   * `#84704 <https://forge.typo3.org/issues/84704>`__ : On opening edit form, edit only specific field with broken links, not entire record
+
 * Usability for editors should be improved
 
 Current plan
