@@ -49,5 +49,6 @@ __ https://docs.typo3.org/typo3cms/drafts/github/T3DocumentationStarter/Public-I
    Notes/Links.rst
    Howtos/Index.rst
    Testing/Test.rst
+   Linkvalidator/Index
    
 
