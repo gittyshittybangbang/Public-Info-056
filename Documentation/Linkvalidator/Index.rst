@@ -21,9 +21,10 @@ Linkvalidator
 What does it do?
 ================
 
-* Provides Backend module for checking and fixing links
+* Provides Backend module for checking for broken links, displaying a list of broken links and fixing links
 * Provides Scheduler task for checking links
-* Configuration via TSconfig
+* Configuration via TSconfig: `Configuration docs <https://docs.typo3.org/typo3cms/extensions/linkvalidator/Configuration/Index.html>`__ `Default TSconfig <https://github.com/TYPO3/TYPO3.CMS/blob/master/typo3/sysext/linkvalidator/Configuration/TsConfig/Page/pagetsconfig.tsconfig>`__
+* Several link types are supported (Page links, external links, ...), provides **hooks** for adding other linktypes
 
 Basic information and links
 ===========================
