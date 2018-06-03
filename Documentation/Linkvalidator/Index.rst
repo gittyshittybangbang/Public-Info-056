@@ -17,3 +17,7 @@
 =============
 Linkvalidator
 =============
+
+* Core extension: typo3/sysext/linkvalidator
+* Slack channel `#linkvalidator-rewrite <https://typo3.slack.com/messages/CAEND116H>`__
+* TYPO3 forge isue: `Epic #85006 <https://forge.typo3.org/issues/85006>`__
