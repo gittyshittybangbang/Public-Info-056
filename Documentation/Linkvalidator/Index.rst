@@ -18,6 +18,16 @@
 Linkvalidator
 =============
 
+What does it do?
+================
+
+* Provides Backend module for checking and fixing links
+* Provides Scheduler task for checking links
+* Configuration via TSconfig
+
+Basic information and links
+===========================
+
 * Core extension: typo3/sysext/linkvalidator
 * `Official Linkvalidator documentation <https://docs.typo3.org/typo3cms/extensions/linkvalidator/Index.html>`__
 * Slack channel `#linkvalidator-rewrite <https://typo3.slack.com/messages/CAEND116H>`__
