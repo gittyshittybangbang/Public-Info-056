@@ -21,7 +21,9 @@ Drafts and Ideas for TYPO3 documentation
 .. toctree::
    :hidden:
 
-   
+
+   GeneralThings/Index
+   DocsTypo3OrgHomepage/Index
    Glossary
    ContribGuideFaqForge
-   Missing
+
