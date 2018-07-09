@@ -2,6 +2,11 @@
 .. include:: ../Includes.txt
 
 
+.. note::
+
+   In the meantime this has been done. 
+
+
 =====================================
 DRAFT: How to write a good bug report
 =====================================
