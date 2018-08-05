@@ -59,6 +59,19 @@ Fluid
 * https://usetypo3.com/24-fluid-tips.html
 
 
+typo3 testing
+~~~~~~~~~~~~~
+
+Daniel Siepmann:
+https://github.com/DanielSiepmann/testing-talk
+
+Extbase
+~~~~~~~
+
+Oliver Klee: Extbase best practices
+https://github.com/oliverklee/workshop-handouts/blob/master/extbase-best-practices/extbase-best-practices.pdf
+
+
 PHP 
 ===
 
