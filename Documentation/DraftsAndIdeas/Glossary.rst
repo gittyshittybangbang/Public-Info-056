@@ -115,6 +115,8 @@ See
 Content element
 ===============
 
+.. see StackOverflow: https://stackoverflow.com/questions/42644930/typo3-difference-between-plugin-and-custom-content-element
+
 
 .. _core:
 
@@ -126,11 +128,21 @@ Core
 
 TYPO3 Core can mean one of two things:
 
-* TYPO3 basic code and functionality. Since (almost) everything is an
+#. The entire TYPO3 CMS 
+
+   #. Entire TYPO3 CMS codebase (source code )
+   #. TYPO3 core functionality (meaning the functionality, that the TYPO3 CMS supplies)
+
+#. ext:core Since (almost) everything is an
   extension in TYPO3, core functionality is bundled inside the extension 
   "core".
-* The entire TYPO3 source code.
 
+   #. TYPO3 basic code provided by ext:core. 
+   #. TYPO3 basic functionality provided by ext:core. 
+
+
+
+Most of the time "TYPO3 core" refers to the first and second definition, as in TYPO3 core development. 
 
 .. _css_styled_content:
 
