@@ -23,6 +23,12 @@ and TYPO3 community.
    to the places in the documentation where the respective concept 
    is explained in more detail.
   
+  
+List of more entries:
+
+* enableFields
+* Yaml
+* Routing
 
    
 .. _backend:
@@ -342,8 +348,8 @@ FormEngine aka TCEforms
    
 FormEngine is part of the TYPO3 core. It renders forms in the :ref:`backend`
 for editing records. It can be used to edit for example the page title in 
-the table pages. The result is then stored in the database. :ref:`tca` is 
-used to configure how the various fields can be edited. 
+the table pages. The result is then stored in the database. :ref:`tca` and
+:ref:`tceform` are used to configure how the various fields can be edited. 
 
 See
 
@@ -500,6 +506,7 @@ Deprecated term, see :ref:`datahandler`.
 TCEFORM
 =======
 
+https://docs.typo3.org/typo3cms/TSconfigReference/PageTsconfig/TceForm.html
 
 .. _template:
 
@@ -512,7 +519,7 @@ In the context of TYPO3, template can mean any of these things:
   to a specific page (and it's subpages)
 * A :ref:`fluid` template file defining how a plugin / content element / page is to be 
   rendered
-* (not TYPO3 specific) The general process of using a template as a general blueprint for the site layout. The 
+* (not TYPO3 specific) The process of using a template as a general blueprint for the site layout. The 
   template contains static parts and dynamic parts that will be filled differently for each page
 
 
@@ -523,7 +530,9 @@ TER
 
 `TYPO3 Extension Repository <https://extensions.typo3.org/>`__
 
-Extensions that are supplied by 3rdparties and that are not shipped with TYPO3 are hosted in the TER. The TER web interface supplies information about each extension (e.g. Link to the documentation, TYPO3 version support).
+Extensions that are supplied by 3rdparties and that are not shipped with TYPO3 are 
+hosted in the TER. The TER web interface supplies information about each extension 
+(e.g. Link to the documentation, TYPO3 version support).
 
 The TER used to be the central repository for Extensions. Nowaday, it is recommended 
 to use :ref:`composer` and the extensions are downloaded from resources like packagist. 
@@ -578,7 +587,7 @@ The word TYPO3 has several meanings:
 TYPO3 Association
 =================
 
-.. Text taken verbatim from ttps://typo3.org/association/
+.. Text taken verbatim from https://typo3.org/association/
 
 The `TYPO3 Association <https://typo3.org/association/>`__ is a not-for-profit organisation and was founded in 2004 to provide funds for long-term development goals.
 
@@ -603,13 +612,14 @@ TypoScript
 
 "TypoScript is a syntax for defining information in a hierarchical structure using simple ASCII text content." (:ref:`What is TypoScript <t3coreapi:typoscript-syntax-what-is-typoscript>` TypoScript is converted into a PHP array. 
 
-It can be used for configuration and for defining the rendering in the frontend. Some parts of what was previously handled by TypoScript is now being taken over by :ref:`fluid_styled_content` and :ref:`fluid` templates. 
+It can be used for configuration and for defining the rendering in the frontend. Some parts of what was previously handled by TypoScript is now being taken care of by :ref:`fluid_styled_content` and :ref:`fluid` templates. 
 
-Just a few examples of what can be done with TypoScript:
+Just a few examples of what was formally done with TypoScript and can now be handled with other methods:
 
-* language configuration
-* define how menus are rendered in the site layout
-* configure extensions
+* language configuration (for TYPO3 9 and later, see `site configuration <https://www.youtube.com/watch?v=snfDfuFx7bg>`__)
+* define how menus are rendered in the site layout (see Fluid solutions, for example https://docs.typo3.org/typo3cms/SitePackageTutorial/MainMenuCreation/Index.html)
+* configure extensions (other configuration options are now commonly being used, see for example the use 
+  of Yaml in ext:form and ext:rte_ckeditor.
 
 
 .. _user_int:
