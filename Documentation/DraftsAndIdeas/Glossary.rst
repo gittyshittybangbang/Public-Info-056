@@ -32,6 +32,12 @@ List of more entries:
 * site package
 * realurl
 
+todo:
+
+* might be useful to tag entries (e.g. developer, editor, newbie, advanced etc.). 
+* Is reST still the best choice? Is a dynamic solution feasible? See also Changelog
+  which has a similar requirement.
+
    
 .. _backend:
 
