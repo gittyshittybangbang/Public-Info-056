@@ -214,18 +214,16 @@ Extensions
 Extensions are software components for TYPO3. An extension must 
 adhere to some standards in order to be detected and loaded by TYPO3. 
 
-Extensions may be installed via the :ref:`extension_manager` or via 
-:ref:`composer`.  
-
-The TYPO3 source code itself consists mostly of extensions.
-
-The Extension Architecture of TYPO3 makes TYPO3 very extendable and flexible. 
-
-A large number of Extensions provided by 3rdparties are available 
-via the TYPO3 Extension Repository (:ref:`ter`) or `Packagist
-<https://packagist.org/packages/typo3/>`__ (if you use composer). 
-
-Extensions are typically developed using :ref:`extbase` / :ref:`fluid`. 
+* Extensions may be installed via the :ref:`extension_manager` or via 
+  :ref:`composer`.  It is recommended to use the composer method.
+* The TYPO3 source code itself consists mostly of extensions.
+* The Extension Architecture of TYPO3 makes TYPO3 very extendable and flexible. 
+* A large number of Extensions provided by 3rdparties are available 
+  via the TYPO3 Extension Repository (:ref:`ter`) or `Packagist
+  <https://packagist.org/packages/typo3/>`__ (if you use composer). 
+* Extensions are typically developed using the :ref:`extbase` Framework
+  and / or the :ref:`fluid` templating engine, but it is possible to
+  develop extensions without using Extbase or Fluid. 
 
 See
 
