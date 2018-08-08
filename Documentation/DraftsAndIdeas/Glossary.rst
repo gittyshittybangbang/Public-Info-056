@@ -149,7 +149,7 @@ Most of the time "TYPO3 core" refers to the first and second definition, as in T
 css_styled_content
 ==================
 
-Outdated, see :ref: `fluid_styled_content`.
+Outdated, see :ref:`fluid_styled_content`.
 
 .. _datahandler:
 
