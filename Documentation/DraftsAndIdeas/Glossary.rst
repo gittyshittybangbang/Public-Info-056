@@ -29,6 +29,8 @@ List of more entries:
 * enableFields
 * Yaml
 * Routing
+* site package
+* realurl
 
    
 .. _backend:
@@ -121,7 +123,9 @@ See
 Content element
 ===============
 
-.. see StackOverflow: https://stackoverflow.com/questions/42644930/typo3-difference-between-plugin-and-custom-content-element
+todo
+
+see StackOverflow: https://stackoverflow.com/questions/42644930/typo3-difference-between-plugin-and-custom-content-element
 
 
 .. _core:
