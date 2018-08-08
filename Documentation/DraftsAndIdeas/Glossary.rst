@@ -198,7 +198,7 @@ See
 Extension Builder
 =================
 
-Extension_builder is an additional extension that is not included with the TYPO3 source code. It can be used to design extensions and automatically generates code. It includes a database modeler.
+Extension_builder is an additional extension that is not included with the TYPO3 CMS. It can be used to design extensions and automatically generates code. It includes a database modeler.
 
 See
 
