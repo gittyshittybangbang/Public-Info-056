@@ -26,6 +26,7 @@ and TYPO3 community.
   
 List of more entries:
 
+* subtree split
 * enableFields
 * Yaml
 * Routing
