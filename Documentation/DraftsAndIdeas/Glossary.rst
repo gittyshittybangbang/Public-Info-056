@@ -27,6 +27,7 @@ and TYPO3 community.
 List of more entries:
 
 * subtree split
+* linkhandler, see https://docs.typo3.org/typo3cms/extensions/news/Tutorials/Integration/Linkhandler/Index.html
 * enableFields
 * Yaml
 * Routing
