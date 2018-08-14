@@ -28,7 +28,7 @@ List of more entries:
 
 * subtree split
 * linkhandler, see https://docs.typo3.org/typo3cms/extensions/news/Tutorials/Integration/Linkhandler/Index.html
-* enableFields
+* enableFields, see : `API  <https://api.typo3.org/typo3cms/8/html/class_t_y_p_o3_1_1_c_m_s_1_1_frontend_1_1_content_object_1_1_content_object_renderer.html#a1abe9323ea6c4bdb6446afde0a7a9b40>` (must be updated !!!)
 * Yaml
 * Routing
 * site package
