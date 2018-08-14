@@ -34,6 +34,10 @@ List of more entries:
 * site package
 * realurl
 
+see also Wiki!!! : https://wiki.typo3.org/De:Glossary
+
+
+
 todo:
 
 * might be useful to tag entries (e.g. developer, editor, newbie, advanced etc.). 
