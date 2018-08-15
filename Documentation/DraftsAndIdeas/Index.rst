@@ -18,6 +18,9 @@
 Drafts and Ideas for TYPO3 documentation
 ========================================
 
+
+* `my documentation issues on Github <https://github.com/search?q=org%3ATYPO3-Documentation+type%3Aissue+assignee%3Asypets&type=Issues>`__
+
 .. toctree::
    :hidden:
    :glob:
