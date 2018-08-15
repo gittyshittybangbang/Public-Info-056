@@ -34,7 +34,10 @@ List of more entries:
 * site package
 * realurl
 
-see also Wiki!!! : https://wiki.typo3.org/De:Glossary
+see also 
+
+* Wiki!!! : https://wiki.typo3.org/De:Glossary
+* glossary in TCA https://docs.typo3.org/typo3cms/TCAReference/Introduction/Index.html#glossary
 
 
 
