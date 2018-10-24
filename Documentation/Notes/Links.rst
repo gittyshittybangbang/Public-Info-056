@@ -8,6 +8,17 @@ Sybille's Linklist
 
 Links and helpful reading
 
+git ressources
+==============
+
+What is a commit?
+-----------------
+
+Snapshot or diff?
+
+* `Reddit: How does a cherry pick merge conflict occur? <https://www.reddit.com/r/git/comments/6r4u8k/newbie_how_does_a_cherry_pick_merge_conflict_occur/>`__
+
+
 TYPO3
 =====
 
