@@ -28,11 +28,9 @@ List of more entries:
 
 * subtree split
 * linkhandler, see https://docs.typo3.org/typo3cms/extensions/news/Tutorials/Integration/Linkhandler/Index.html
-* enableFields, see : `API  <https://api.typo3.org/typo3cms/8/html/class_t_y_p_o3_1_1_c_m_s_1_1_frontend_1_1_content_object_1_1_content_object_renderer.html#a1abe9323ea6c4bdb6446afde0a7a9b40>` (must be updated !!!)
+* enableFields, see : `API  <https://api.typo3.org/typo3cms/8/html/class_t_y_p_o3_1_1_c_m_s_1_1_frontend_1_1_content_object_1_1_content_object_renderer.html#a1abe9323ea6c4bdb6446afde0a7a9b40>`__ 
 * Yaml
 * Routing
-* site package
-* realurl
 
 see also 
 
@@ -44,7 +42,7 @@ see also
 todo:
 
 * might be useful to tag entries (e.g. developer, editor, newbie, advanced etc.). 
-* Is reST still the best choice? Is a dynamic solution feasible? See also Changelog
+* Is reST the best choice? Is a dynamic solution feasible? See also Changelog
   which has a similar requirement.
 
    
@@ -448,6 +446,17 @@ Signal
 ======
 
 
+.. _sitepackage:
+
+Sitepackage
+===========
+
+"A sitepackage is an extension for TYPO3 that contains all relevant configurations for 
+a website"
+
+`Benjamin Kott: The anatomy of TYPO3 sitepackages <https://de.slideshare.net/benjaminkott/typo3-the-anatomy-of-sitepackages>`__
+
+Similar terms: Template extension, theme, base extension, ...
 
 Slot
 ====
