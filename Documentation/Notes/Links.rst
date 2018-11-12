@@ -28,8 +28,7 @@ TYPO3 Documentation
 Links to Github 
 ~~~~~~~~~~~~~~~
 
-* Github Tip: Show all open *issues* in organization TYPO3-Documentation on *Github*, sort by "Recently updated":
-https://github.com/search?o=desc&q=org%3ATYPO3-Documentation+type%3Aissue&s=updated&state=open&type=Issues
+* Github Tip: `Show all open *issues* in organization TYPO3-Documentation on *Github*, sort by "Recently updated": <https://github.com/search?o=desc&q=org%3ATYPO3-Documentation+type%3Aissue&s=updated&state=open&type=Issues>`__
 * `Open pull requests <https://docs.typo3.org/services/GithubPullRequests/>`__
 
 Docs on TYPO3 Docs
@@ -47,7 +46,7 @@ TYPO3 core
 ----------
 
 * `TYPO3 Roadmap <https://typo3.org/typo3-cms/roadmap/>`__
-* `TYPO3 Core Development - Strategic Initiatives <
+* `TYPO3 Core Development - Strategic Initiatives <https://typo3.org/community/teams/typo3-development/initiatives/>`__
 
 TYPO3 server
 ------------
@@ -101,12 +100,18 @@ PHP
 Regex
 =====
 
+* Online regex tester : `Regex 101 <https://regex101.com/>`__
 * `StackOverflow Regex Resources <https://stackoverflow.com/a/22944075/2444812>`__
 
 Testing
 =======
 
 * unit tests: https://jtreminio.com/2013/03/unit-testing-tutorial-introduction-to-phpunit/
+
+JavaScript
+==========
+
+
 * maintainable javascript: https://www.nczonline.net/blog/2010/03/02/maintainable-javascript-dont-modify-objects-you-down-own/
 
 
