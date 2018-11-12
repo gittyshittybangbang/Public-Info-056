@@ -28,8 +28,6 @@ Drafts and Ideas for TYPO3 documentation
    :glob:
 
 
-   GeneralThings/Index
    DocsTypo3OrgHomepage/Index
-   GoodBad/Index
    *
 
