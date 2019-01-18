@@ -28,6 +28,5 @@ Drafts and Ideas for TYPO3 documentation
    :glob:
 
 
-   DocsTypo3OrgHomepage/Index
    *
 
