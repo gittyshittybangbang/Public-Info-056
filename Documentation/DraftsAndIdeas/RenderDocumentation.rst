@@ -119,18 +119,16 @@ On Windows, it depends what kind of a shell (terminal) you are using.
 With Powershell
 ----------------
 
-You can directly run the following command or create a script, for example t3docmake.ps1::
+You can directly run the following commands or create a script, for example t3docmake.ps1,
+containing::
 
    docker run --rm -v "$($PWD):/PROJECT/:ro" -v "$($PWD)\Documentation-GENERATED-temp\:/RESULT/" t3docs/render-documentation makehtml;
+   start "$PWD/Documentation-GENERATED-temp/Result/project/0.0.0/Index.html"
 
 Then execute the script, e.g.::
 
    ../t3docmake.ps1
-
-
-To open the result, use::
-
-   start "$PWD/Documentation-GENERATED-temp/Result/project/0.0.0/Index.html"
+   
 
 
 As an alternative, try :ref:`render-with-docker-compose`.
@@ -143,8 +141,8 @@ As an alternative, try :ref:`render-with-docker-compose`.
 
 .. _render-with-docker-compose:
 
-Render With Docker Composer
-===========================
+Render With Docker Compose
+==========================
 
 
 The commands previously described may not work on your system. Additionally,
@@ -175,17 +173,15 @@ Prerequisites:
 
 #. Run docker-compose
 
-   If docker-compose.yml is in current directory::
+   If docker-compose.yml exists::
 
       docker-compose up
 
    If yaml file is named differently::
 
-      docker-compose up -f <path>
+      docker-compose -f <path> up
 
-Where you create the docker-compose.yml file is up to you. You can create it in the
-documentation project you work on or create a general one you use for all documentation
-projects. Just don't commit files with your specific settings to a public repository.
+
 
 
 
