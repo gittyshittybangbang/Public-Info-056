@@ -187,5 +187,5 @@ Additional Information
 * `Docker Compose & User issue <https://github.com/docker/compose/issues/1532>`__, 
   and https://github.com/moby/moby/issues/22415
 * `docker-compose down <https://nickjanetakis.com/blog/docker-tip-45-docker-compose-stop-vs-down>`__
-
+* docker-compose and user: https://medium.com/redbubble/running-a-docker-container-as-a-non-root-user-7d2e00f8ee15
 
