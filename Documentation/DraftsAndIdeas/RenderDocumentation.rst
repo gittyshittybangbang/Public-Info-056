@@ -157,7 +157,7 @@ Prerequisites:
    documentation projects.
 
    .. code-block:: yaml
-      :lineno:
+      :linenos:
 
          version: '2'
          services:
@@ -172,11 +172,11 @@ Prerequisites:
 
    If docker-compose.yml exists::
 
-      docker-compose up
+      docker-compose run t3docmake
 
    If yaml file is named differently::
 
-      docker-compose -f <path> up
+      docker-compose -f <path> run t3docmake
 
 
 Additional Information
