@@ -184,6 +184,7 @@ Additional Information
 
 * `Docker Compose Version <https://docs.docker.com/compose/compose-file/>`__
 * `StackOverflow: Difference Between docker-compose up and docker-compose run <https://stackoverflow.com/questions/33066528/should-i-use-docker-compose-up-or-run>`__
+* `Docker Compose & User issue <https://github.com/docker/compose/issues/1532>`__
 
 
 
