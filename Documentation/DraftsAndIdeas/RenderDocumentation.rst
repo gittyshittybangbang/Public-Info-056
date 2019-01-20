@@ -186,6 +186,6 @@ Additional Information
 * `StackOverflow: Difference Between docker-compose up and docker-compose run <https://stackoverflow.com/questions/33066528/should-i-use-docker-compose-up-or-run>`__
 * `Docker Compose & User issue <https://github.com/docker/compose/issues/1532>`__, 
   and https://github.com/moby/moby/issues/22415
-
+* `docker-compose down <https://nickjanetakis.com/blog/docker-tip-45-docker-compose-stop-vs-down>`__
 
 
