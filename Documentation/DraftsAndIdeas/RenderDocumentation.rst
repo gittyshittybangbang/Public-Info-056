@@ -114,7 +114,7 @@ alternative workflow.
 Render on Windows
 =================
 
-On Windows, it depends what kind of a shell (terminal) you are using.
+**Recommended:** Try :ref:`render-with-docker-compose`.
 
 With Powershell
 ----------------
@@ -129,9 +129,6 @@ Then execute the script, e.g.::
 
    ../t3docmake.ps1
    
-
-
-As an alternative, try :ref:`render-with-docker-compose`.
 
 
 .. todo:
