@@ -164,7 +164,7 @@ Prerequisites:
 
          version: '2'
          services:
-            typo3_contrib:
+            t3docmake:
                image: t3docs/render-documentation:latest
                volumes:
                - ./:/PROJECT:ro
@@ -182,7 +182,11 @@ Prerequisites:
       docker-compose -f <path> up
 
 
+Additional Information
+======================
 
+* `Docker Compose Version <https://docs.docker.com/compose/compose-file/>`__
+* `StackOverflow: Difference Between docker-compose up and docker-compose run <https://stackoverflow.com/questions/33066528/should-i-use-docker-compose-up-or-run>`__
 
 
 
