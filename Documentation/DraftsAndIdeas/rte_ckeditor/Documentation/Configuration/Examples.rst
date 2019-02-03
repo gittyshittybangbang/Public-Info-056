@@ -139,7 +139,7 @@ In this example, we integrate the plugin `codesnippet <https://ckeditor.com/cke4
 4. Look for a :file:`plugin.js` or something similar in the plugin
    directory and include it in your Yaml configuration, for example:
 
-   :file:`EXT:my_extension/Configuration/RTE/MyPreset.yaml:
+   :file:`EXT:my_extension/Configuration/RTE/MyPreset.yaml`:
 
    .. code-block:: yaml
 
