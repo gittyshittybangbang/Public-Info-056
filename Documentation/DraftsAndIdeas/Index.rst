@@ -29,4 +29,5 @@ Drafts and Ideas for TYPO3 documentation
 
 
    *
+   rte_ckeditor/Index.rst
 

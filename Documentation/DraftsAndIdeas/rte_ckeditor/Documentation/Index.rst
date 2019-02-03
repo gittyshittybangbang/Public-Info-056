@@ -1,7 +1,5 @@
 .. include:: Includes.txt
 
-
-
 .. _rte_ckeditor:
 .. _start:
 
@@ -11,48 +9,40 @@ rte_ckeditor
 
 .. only:: html
 
-	:Extension key:
-		rte_keditor
+:Extension key:
+   rte_ckeditor
 
-	:Version:
-		|release|
+:Version:
+   |release|
 
-	:Language:
-		en
+:Language:
+   en
 
-	:Description:
-		Integration of ckeditor into TYPO3 for RTE editing
+:Description:
+   Integration of EKEditor into TYPO3 for RTE editing
 
-	:Keywords:
-		sysext, rte, ckeditor
+:Keywords:
+   sysext, rte, ckeditor
 
-	:Copyright:
-		2018
+:Copyright:
+   2019
 
-	:Author:
-		Community
+:Author:
+   Initial version by Benni Mack, updated and maintained by the TYPO3 community
 
-	:License:
-		This document is published under the Open Publication License
-		available from http://www.opencontent.org/openpub/
+:License:
+   This document is published under the Open Publication License
+   available from http://www.opencontent.org/openpub/
 
-	:Rendered:
-		|today|
-
-	The content of this document is related to TYPO3,
-	a GNU/GPL CMS/Framework available from `www.typo3.org <https://typo3.org/>`__.
-
-
-	**Table of Contents**
+The content of this document is related to TYPO3,
+a GNU/GPL CMS/Framework available from `www.typo3.org <https://typo3.org/>`__.
 
 .. toctree::
-
+   :hidden:
 
    Introduction/Index
-   User/Index
-   Administrator/Index
+   GeneralConcepts/Index
+   Installation/Index
    Configuration/Index
-   Developer/Index
-   ChangeLog/Index
-   KnownProblems/Index
-   Links
+   Usage/Index
+   Sitemap

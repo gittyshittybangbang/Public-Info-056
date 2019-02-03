@@ -13,34 +13,54 @@ Introduction
 What does it do?
 ================
 
-The extension rte_ckeditor provides a Rich Text Editor (RTE) by integrating
+The extension `rte_ckeditor` provides a rich text editor (RTE) by integrating
 `CKEditor <https://ckeditor.com/>`__ into TYPO3.
 
-CKEditor is a WYSIWYG Editor mostly written in JavaScript, and is used in many system
+This makes it possible to
+use the features of CKEditor when editing rich text fields in the TYPO3
+backend or frontend (if frontend editing is used). Rich text fields are
+fields which may contain text with markup, for example for adding a style
+such as bold, using lists or enumerations, headlines or adding links.
+
+.. figure:: images/example_textfield.png
+   :class: with-shadow
+
+   Editing a textfield in the backend with rte_ckeditor.
+
+CKEditor is a WYSIWYG (what you see is what you get) editor mostly written in
+JavaScript, and is used in many systems
 due to its flexibility. There are hundreds of free open-source plugins for CKEditor
 to enhance the editing experience.
 
-Integration in TYPO3
-====================
+History
+=======
+
+CKEditor was officially integrated as the default rich text editor in TYPO3 v8 LTS,
+within an extension called `rte_ckeditor`.
 
 Before TYPO3 v8, a custom fork of “HtmlArea”, another open-source WYSIWYG editor
-was shipped with TYPO3 Core in a separate extension “rtehtmlarea”. The latter
-extension is still fully functional, but must be installed separately via the
-TYPO3 Extension Repository or the upgrade tool when updating from previous
-TYPO3 versions.
-
-For new installations CKEditor is activated by default and ships with a
-default configuration for editors. To enable CKEditor on an existing installation
-in TYPO3 v8, visit the Extension Manager in the TYPO3 Backend and disable
-“rtehtmlarea” and enable “rte_ckeditor”.
-
+was shipped with TYPO3 Core in a separate extension `rtehtmlarea`. The latter
+extension is still fully functional, but must be installed separately
+when updating from previous TYPO3 versions.
 
 .. _features:
 
+Features
+========
 
-Features of rte_ckeditor
-========================
 
-.. todo
+The extension `rte_ckeditor` incorporates the features of CKEditor and adds
+additional functionality, configuration presets and plugins.
 
-.. add screenshots
+There are numerous `plugins <https://ckeditor.com/cke4/addons/plugins/all>`__
+available for CKeditor. Some plugins have already been
+integrated into `rte_ckeditor` and new plugins have been written for TYPO3.
+
+Some examples of features:
+
+* Configurable via Yaml files
+* Configuration presets (minimal, default, full) for TYPO3
+* Toolbar customization
+* Link functionality: integration with TYPO3 link wizard
+* Softhypen: plugin for adding ctrl+dash support to insert a conditional word break
+
