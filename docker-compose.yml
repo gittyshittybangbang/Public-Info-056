@@ -1,0 +1,9 @@
+version: '2'
+services:
+  typo3_contrib:
+    image: t3docs/render-documentation:latest
+    volumes:
+    - ./:/PROJECT:ro
+    - ./Documentation-GENERATED-temp:/RESULT
+    user: 1000:1000
+    command: makehtml
