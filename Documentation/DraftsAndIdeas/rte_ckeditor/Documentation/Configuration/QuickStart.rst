@@ -75,7 +75,7 @@ We explain the example 'Minimal.yaml' from the core:
   of configuration
 * line #9: toolbarGroups, see `toolbarGroups
   <https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_config.html#cfg-toolbarGroups>`__
-  and`Understanding CKEditor Toolbar Concepts
+  and `Understanding CKEditor Toolbar Concepts
   <https://ckeditor.com/docs/ckeditor4/latest/guide/dev_toolbarconcepts.html>`__
 * line #12: removeButtons: this deactivates default buttons rendered in the toolbar, see `removeButtons
   <https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_config.html#cfg-removeButtons>`__
