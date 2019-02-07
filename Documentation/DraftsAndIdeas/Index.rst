@@ -28,6 +28,7 @@ Drafts and Ideas for TYPO3 documentation
    :glob:
 
 
+   Configuration/Index.rst
    *
    rte_ckeditor/Index.rst
 
