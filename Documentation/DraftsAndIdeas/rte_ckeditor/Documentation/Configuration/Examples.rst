@@ -34,6 +34,7 @@ of type "text" set this with **Page TSConfig**:
 
    RTE.config.tt_content.bodytext.types.text.preset = minimal
 
+For more examples, see :ref:`t3tsconfig:pageTsRte`
 
 How Do I Create My Own Preset?
 ==============================

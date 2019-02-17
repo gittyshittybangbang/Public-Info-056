@@ -171,6 +171,7 @@ Content Type “Bullet list” (CType=bullets).
 Of course, any other specific option set via Yaml can be overridden via
 Page TSconfig as well.
 
+For more examples, see :ref:`t3tsconfig:pageTsRte`
 
 
 .. _config-rte-transformations:
