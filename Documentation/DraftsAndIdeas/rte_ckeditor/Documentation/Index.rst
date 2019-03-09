@@ -3,9 +3,9 @@
 .. _rte_ckeditor:
 .. _start:
 
-============
-rte_ckeditor
-============
+=====================
+rte_ckeditor (Merged)
+=====================
 
 .. only:: html
 
