@@ -27,7 +27,8 @@ Drafts and Ideas for TYPO3 documentation
    :hidden:
    :glob:
 
-
+   GeneralThings/Index
+   ProblemsSolutions/Index
    Configuration/Index.rst
    *
    rte_ckeditor/Index.rst

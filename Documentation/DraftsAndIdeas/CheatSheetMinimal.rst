@@ -4,9 +4,11 @@
 .. highlight:: php
 
 .. _rest-cheat sheet:
-=========================
-reST & Sphinx Cheat Sheet
-=========================
+==========================================
+DRAFT: reST & Sphinx Cheat Sheet (Minimal)
+==========================================
+
+see `published version <https://docs.typo3.org/typo3cms/HowToDocument/WritingReST/CheatSheet.html>`__
 
 This is a Header Level 1
 ========================

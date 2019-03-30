@@ -9,27 +9,38 @@
    Original author: Sybille Peters
 
 
-.. _decomposed-config-overview:
+todo:
+
+* configure backend users and groups
+* special section for rte_ckeditor, form and sites
+* add link to explanation of difference between admin and system maintainer
+  in introduction
+
+
+.. _config-overview:
 
 =============================
 DRAFT: Configuration Overview
 =============================
 
-This chapter will give you a brief overview of various configuration
+This chapter will give you an overview of various configuration
 methods in TYPO3. For more detail, follow the respective link under
 “More information”.
+
+You will find out how to configure TYPO3 and learn more about
+extending the already existing configuration options.
 
 A primary feature of TYPO3 is its configurability. Not only can
 it be configured by users with special user privileges in the Backend,
 most configuration can also be overridden by source code in extensions
-or configuration files (e.g. AdditionalConfiguration.php).
+or configuration files.
+
 This makes the changes easily maintainable and suited for a revision
 control system (e.g. git), automatic testing and deployment.
 
-This page attempts to classify the various methods, give some
-examples what is used where and answer some common questions.
 
-.. _decomposed-config-classification:
+
+.. _config-classification:
 
 Classification
 ==============
@@ -43,9 +54,9 @@ In general, a configuration method consists of:
    filled with values, for example by providing a PHP or Yaml file or
    selecting options in the Global Configuration section in the Backend.
 #. **Configuration persistence** is where the configuration is stored,
-   for example filenames (e.g. `typo3conf/LocalConfiguration.php`) or
+   for example filenames (e.g. :file:`typo3conf/LocalConfiguration.php`) or
    which tables and fields are used for storage in the database (e.g.
-   `tt_content.pi_flexform` for FlexForm)
+   :typoscript:`tt_content.pi_flexform` for FlexForm)
 #. **Scope**: To what the configuration applies. Is it global, does
    it only affect a specific extension, only a specific page tree
    or user group etc.
@@ -56,12 +67,15 @@ In the case of TypoScript, the name of the method is the same as the name
 of the configuration language TypoScript, which defines the syntax.
 
 
-What is used where?
+What Is Used where?
 ===================
 
-Very roughly, these are the available configuration methods used by TYPO3:
+Configuration Methods
+---------------------
 
-* :ref:`Global Configuration <decomposed-config-global-configuration>`
+These are the available configuration methods used by TYPO3:
+
+* :ref:`Global Configuration <config-overview-global-configuration>`
   is used for system wide configuration. It mostly
   affects the core.
 * :ref:`Extension Configuration <decomposed-config-extconf>` is used for
@@ -82,10 +96,19 @@ Very roughly, these are the available configuration methods used by TYPO3:
   how they behave and can be edited in the Backend.
 * :ref:`Flexform <decomposed-config-flexform>` is used to configure plugins in the Backend.
 * :ref:`Feature toggles <decomposed-config-feature-toggles>` turn specific TYPO3 features
-  on / off. One can argue whether this is a
-  configuration method, but it does have a similar effect as turning a boolean value in
-  the Global Configuration on or off and the result is written to the same array as
-  the Global Configuration ($GLOBAL['TYPO3_CONF_VARS').
+  on / off.
+
+
+.. todo: these are general ways to configure TYPO3. Some extensions have their own way
+   of configuration, e.g. form, sites and rte_ckeditor. For more information about these,
+   see the respective setting
+
+.. todo: add user settings? https://docs.typo3.org/typo3cms/CoreApiReference/latest/ApiOverview/UserSettingsConfiguration/Index.html
+
+.. todo: add backend user / group configuration: https://docs.typo3.org/typo3cms/GettingStartedTutorial/UserManagement/GroupPermissions/Index.html
+
+Configuration Languages
+-----------------------
 
 Languages used by TYPO3 for configuration:
 
@@ -103,47 +126,12 @@ Languages used by TYPO3 for configuration:
   extension using this format.
 * XML is used in FlexForms
 
-Extend configuration
---------------------
-
-The following are configuration methods, where the configuration schema (definition of
-properties, value types and default values) can be created or extended by developers:
-
-* TSconfig
-* TypoScript
-* Extension Configuration
-* Flexform
-
-The following are configuration methods, where the configuration schema should only
-be extended by core developers:
-
-* Global Configuration
-* Feature toggles
-
-Change values
--------------
-
-For the following configuration methods, values can be changed in the BE:
-
-* Global Configuration
-* Extension Configuration
-* TypoScript (though it is recommended to maintain TypoScript in a site package extension)
-* TSconfig (though it is recommended to maintain TSconfig in a site package extension)
-* Flexform
-* Feature toggles
-
-For the following configuration methods, values can only be changed by source code (typically
-in the core or an extension):
-
-* TCA
-
-
-.. _decomposed-config-methods:
+.. _config-overview-methods:
 
 Configuration methods
 =====================
 
-.. _decomposed-config-global-configuration:
+.. _config-overview-global-configuration:
 
 Global Configuration
 --------------------
@@ -155,9 +143,11 @@ Global Configuration
    :sep:`|` :aspect:`Language:` PHP
    :sep:`|` :aspect:`Scope:` global
    :sep:`|` :aspect:`Extendable:` core
+   :sep:`|` :aspect:`Change values in BE:` most settings
    :sep:`|` :aspect:`Required privilege:` system maintainer
 
 .. rst-class:: clear
+
 
 Description:
    `$GLOBALS['TYPO3_CONF_VARS']` PHP array.
@@ -165,13 +155,51 @@ Description:
 Used for:
    System wide global configuration.
 
-Schema:
-   * Default values in :file:`typo3/sysext/core/Configuration/DefaultConfiguration.php`
-   * Description and Definition in :file:`typo3/sysext/core/Configuration/DefaultConfigurationDescription.yaml`
+
+.. t3-field-list-table::
+
+ - :Name:         Schema: Default values
+   :Value:        in :file:`typo3/sysext/core/Configuration/DefaultConfiguration.php`
+
+ - :Name:         Schema definition
+   :Value:        in :file:`typo3/sysext/core/Configuration/DefaultConfigurationDescription.yaml`
+
+Example
+~~~~~~~
+
+Example:
+   Change value :php:`$GLOBALS['TYPO3_CONF_VARS']['FE']'lockIP']`:
+
+.. image:: _images/typo3_conf_vars.png
+    :class: with-shadow
+
+
+
+How to Change Values
+~~~~~~~~~~~~~~~~~~~~
 
 Change values in:
    * Backend: :guilabel:`"Settings" > "Configure Installation-Wide Options"`
    * Files: :file:`typo3conf/AdditionalConfiguration.php`
+
+Configuration for caching framework must be changed in AdditionalConfiguration.php.
+
+  * The :ref:`Caching Framework <caching>` can be configured by setting
+    :php:`$GLOBAL['TYPO3_CONF_VARS']['SYS']['caching']` in `AdditionalConfiguration.php`
+    or :php:`LocalConfiguration.php`, but not in the here mentioned Backend module
+    "Settings". See :ref:`caching-configuration-cache`.
+
+
+How to View Settings
+~~~~~~~~~~~~~~~~~~~~
+
+How to Extend
+~~~~~~~~~~~~~
+
+Schema:
+   * Default values in :file:`typo3/sysext/core/Configuration/DefaultConfiguration.php`
+   * Description and Definition in :file:`typo3/sysext/core/Configuration/DefaultConfigurationDescription.yaml`
+
 
 View in:
     Backend: *Configuration* >> *Global Configuration*
@@ -180,32 +208,23 @@ Automatically generated file:
    :file:`typo3conf/LocalConfiguration.php`
 
 
-Example:
-   Change value :php:`$GLOBALS['TYPO3_CONF_VARS']['FE']'lockIP']`:
-
-.. image:: _images/typo3_conf_vars.png
-   :class: with-shadow
 
 
 More information:
   * :ref:`Global Configuration <typo3ConfVars>`
   * :ref:`t3start:system-modules-configuration` in "Getting Started"
-  * The :ref:`Caching Framework <caching>` can be configured by setting
-    :php:`$GLOBAL['TYPO3_CONF_VARS']['SYS']['caching']` in `AdditionalConfiguration.php`
-    or :php:`LocalConfiguration.php`, but not in the here mentioned Backend module
-    "Settings". See :ref:`caching-configuration-cache`.
 
 
 
 
-.. _decomposed-config-extconf:
+.. _config-overview-extconf:
 
 Extension Configuration
 -----------------------
 
 .. rst-class:: dl-parameters
 
-Global Configuration
+Extension Configuration
    :sep:`|` :aspect:`Schema Language:` TypoScript constants
    :sep:`|` :aspect:`Language:` PHP
    :sep:`|` :aspect:`Scope:` extension
@@ -625,8 +644,10 @@ Setup uses the constant:
    plugin.tx_extkey.settings.form.spamCheck = {$plugin.tx_extkey.spamCheck}
 
 
-Before each constant assignment, you can optionally add a descriptive line that defines the data
+Before each constant assignment, you should add a descriptive line that defines the data
 type and adds a category and label. These are later used in the constant editor.
+
+.. todo: show contant editor
 
 Example:
 
@@ -650,20 +671,19 @@ Site package extension
 
 While you can configure TypoScript and TSconfig in the Backend, it is general good practice
 to include all configuration for a site (including TypoScript, TSconfig, rte_ckeditor
-configuration, Backend Layouts etc.) in a site package extension.
+configuration, Backend Layouts etc.) in a sitepackage extension.
 
 More information:
 
-* Advantages of site packages, basics: `Benjamin Kott: The anatomy of sitepackages <https://de.slideshare.net/benjaminkott/typo3-the-anatomy-of-sitepackages>`__
+* Advantages of site packages, basics:
+  `Benjamin Kott: The anatomy of sitepackages <https://de.slideshare.net/benjaminkott/typo3-the-anatomy-of-sitepackages>`__
 * Tutorial for writing a site package: :ref:`t3sitepackage:start`
 
-FAQ
-===
+Further Resources
+=================
 
 
 * `Stackoverflow: In TYPO3, what is the difference between setup, constants, and TSConfig
   <https://stackoverflow.com/questions/5033306/in-typo3-what-is-the-difference-between-setup-constants-and-tsconfig>`__
 
 
-Use cases
-=========
