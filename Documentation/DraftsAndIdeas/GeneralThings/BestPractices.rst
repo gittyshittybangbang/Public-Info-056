@@ -174,10 +174,10 @@ My Answer:
    information should be structured in a way, you can easily find the step-by
    step information. You should not have to always plow through the entire
    history of how things developed *first*. It's good to have it, but make
-   it easy for the reader. Providing a quick start is often a good idea,
+   it easy for the reader. Providing an **additional** quick start is often a good idea,
    see `ext:form <https://docs.typo3.org/typo3cms/extensions/form/QuickStart/Index.html>`__
    Some of the chapters in the Extbase / Fluid book and even in TYPO3 Explained
-   are just way to long. And a quick start or quick reference is missing.
+   are quite long. And a quick start or quick reference is missing.
 
 
 What Should Be Documented on docs.typo3.org and What Elsewhere?
@@ -193,7 +193,8 @@ My Answer:
    not that documentation does not get written. People write **a lot**: on blogs,
    in books, on StackOverflow, on Slack. *If* a lot of the time people put in
    writing on StackOverflow, in blogs on Slack would be put into the documentation,
-   we would not have such a problem on docs.typo3.org. So this is not an answer,
+   we would not have such a problem on docs.typo3.org of unmaintained or missing
+   documentation. So this is not an answer,
    this is another question. Why do people document things on blogs and not on
    docs.typo3.org? Why do they write great answers on StackOverflow, but rarely
    make the changes on docs.typo3.org? Why is the quality of the blogs and of
@@ -203,9 +204,9 @@ My Answer:
 
    We could draw the conclusion, ok, not everything must be documented on docs.typo3.org,
    it's ok to have the blogs. But they cannot be maintained by the community.
+   You usually can't see for which version the information applies.
    Beginners don't know where to read. They do not know what to trust. Where to
-   start. They often come to docs.typo3.org when they begin. So, no, **the current
-   situation is not good.**
+   start. They often come to docs.typo3.org when they begin. 
 
 
 Documentation in Extra GitHub Repoitories or in Core?
@@ -216,10 +217,12 @@ Question:
    We currently have both: changelog + sysext doc in core, everything
    else separate (see :ref:`h2document:overview-of-types`.
    Currently, even the system extensions do not do it
-   consistently, e.g. ext:form and ext:rte_ckeditor in core, ext:seo in
+   consistently, e.g. ext:form and ext:rte_ckeditor in core, ext:seo, ext:sites in
    "TYPO3 Explained".
 
 My Answer:
+   First of all, I think, having various repositories and workflows is confusing.
+
    There are a number of arguments for keeping documentation in the code
    repo, see for example https://hackernoon.com/write-good-documentation-6caffb9082b4
    one possibility: put tsref, TCA ref, TSconfig ref and TYPO3 Explained in core.
@@ -242,6 +245,7 @@ Answer:
    putting a lot on one page can make it more overwhelming. So one must
    be careful to structure it well with chapters or even :ref:`h2document:big-nums`.
    In any case, having to page back and forth on pages with 2 sentences is annoying.
+   So, it depends on the length of the content.
 
 Specific Questions
 ------------------
@@ -256,7 +260,8 @@ Question:
    Proceed as before, or change something?
 
 Answer:
-   Not decided on this yet. Also see already existing issue:
+   I have not decided on what might be the best approach for this yet. Also see
+   already existing issue:
 
 Related:
    * `Issue: Question: How to deal with Changelog becoming main documentation for some new features?
@@ -287,7 +292,7 @@ Question:
    Michael Schams? Do we need another online book?
 
 My Answer:
-   I would try to deduplicate as much as possible. As soon as book comes out,
+   I would try to deduplicate as much as possible. As soon as book by Michael Schams comes out,
    if it covers the material well and there is considerable overlap, I would
    at least think about taking down Extbase / Fluid book and replacing it
    with only what is missing, e.g. a set of mini howtos or a reference.
@@ -319,8 +324,8 @@ My Answer:
    somethings is easy that is not and where they may struggle makes them feel stupid.
    Put some more glamour into documenting: It's not easy, it requires skills.
 
-   But, do give people resources, documentation, examples, templates to make it
-   easier to write good documentation!
+   But, do give people resources, documentation, a good workflow, examples, templates
+   to make it *easier* (if not easy) to write good documentation!
 
 
 
