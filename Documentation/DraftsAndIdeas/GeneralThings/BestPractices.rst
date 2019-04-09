@@ -31,16 +31,12 @@ with so far.
 
 
 * **Publish when ready** - no to unfinished documentation
-* **Quality over quantity** - if you cannot maintain it, take it down
-* **Respect your reader** - yes, the documentation is for the reader
+* **Quality over quantity** - if you cannot maintain it, shorten it or take it down
+* **Respect your reader** - find out what he or she needs - collect feedback
 * **Respect your contributor** - give him clear instructions, respect his time,
   value her work
-* **Test it** - and collect feedback
 * **Think about new people too** - not just the experienced TYPO3 users
 * **New replaces old** -  Every time you add something new - take down or merge something old!
-* **Actions speak louder than words** - If you find documentation important for
-  TYPO3, then do something about improving it! Or at least point out the problems!
-
 
 Main Goal
 =========
@@ -51,7 +47,7 @@ Make it easier to learn to use, develop for, integrate with, administrate, edit 
 Open Questions and Answers
 ==========================
 
-When finding best practices, these are some of the questions that should be
+When finding best practices, these are some of the questions that could be
 answered and decided on. Some of these already exist as issues in GitHub.
 
 You can also see my answers and solutions for these open questions,
@@ -92,6 +88,8 @@ Implementation
     We have a /typo3cms/draft url on which we can render that
     is not crawled by search enginges. Draft pages should
     additionally contain a message at the top of the page.
+    
+    Branches can be completed before they are taken online.
 
 
 
