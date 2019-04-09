@@ -11,12 +11,7 @@ Is it possible to prioritize them? This is difficult. Some tasks depend on
 others, and some things are very important though they will not visibly
 improve a thing (e.g. optimizing automation etc.).
 
-For this reason, we try to categorize some of the main points. But we
-cannot order them just yet.
-
-My main point is, that we are currently not doing enough.
-The number of people currently involved in the documentation are not
-enough to ensure high quality and a good reading experience!
+The main goal is to ensure high quality and a good reading experience!
 
 These things would already improve the documentation in an immediately
 visible way:
@@ -30,11 +25,11 @@ visible way:
 #. Change colors to adhere to Style Guide (see `issue
    <https://github.com/TYPO3-Documentation/t3SphinxThemeRtd/issues/110>`__)
 
-These are long term things that should be done soon:
+These are long term things that should be started ASAP soon:
 
 #. Decide about structure, including future of Extbase and Fluid book and guide
 #. Decide about some open points, see section :ref:`decisions`
-#. Seriously work on texts to make them up-to-date and without mistakes
+#. Seriously review texts to make them up-to-date and without mistakes
 #. Regularly gather feedback, see `Evaluate methods to get feedback (surveys, feedback button, ...)
    <https://github.com/TYPO3-Documentation/T3DocTeam/issues/65>`__
 
@@ -54,7 +49,7 @@ Readability of pages could be improved. There are a number of reasons that
 impact this:
 
 #. Width of reading area is not restricted. That makes the lines of the
-   text usually be too wide on wide screens. It is recommended to use
+   text usually be too wide on wide screens. It is generally recommended to use
    45 to 75 characters width. See `issue <https://github.com/TYPO3-Documentation/t3SphinxThemeRtd/issues/83>`__
 #. Huge images. Very large images are often used. You have to scroll down
 #. Images and text blend. The recommended `:class: with-shadow` which creates
@@ -78,7 +73,8 @@ Related:
 Text Outdated
 -------------
 
-Outdated text is a problem. Another problem is, if you don't know if the text is
+Outdated text is a problem. Another problem is: Especially as a beginner,
+**you don't know** if the text is
 up-to-date. This is especially a problem for new users.
 
 Related:
@@ -112,16 +108,30 @@ page on start page, a place people might look at **first**, when they are starti
 No Clear Reading Path for Target Groups
 ---------------------------------------
 
-Integrators, developers.
+Already good:
 
-For example, where to go as integrator? The information exists in various
-places.
+* "Getting Started" tutorial
+* "Next steps" in "Getting Started Tutorial" for integrators, developers, editors, ...
+* "Tutorial for Editors"
+
+
+Not so good:
+
+* For example, where to go as integrator? The information exists in various
+  places?
+* For developers: Extbase / Fluid book listed as outdated in "Tutorials & Guides",
+  but no information about this on individual pages
+* For developers: No clarification about Extbase: When to use, when not to ...  
+* Some introduction to the topic often missing. Information is there, information is good, but
+  introductory text leading up to it is missing.
 
 Search
 ------
 
 Search is important in order to find things. This is already a known problem: Search
 only searches in current manual. This is a task that might actually get done this year.
+
+This is already being worked on ...
 
 Related:
 
@@ -142,7 +152,7 @@ See several issues:
 Duplicate Information in Various Places
 ---------------------------------------
 
-Various manuals, typo3.org, forge, the Wiki. This makes it confusing. Especially, if part
+Various manuals, typo3.org, Forge, the Wiki. This makes it confusing. Especially, if part
 of the information is outdated and some is not.
 
 
@@ -180,12 +190,14 @@ Toolchain
 ---------
 
 * reST & Sphinx is still not easy to use and does pose a barrier.
-  However, markdown is not a real alternative.
-* people still have problems with Docker.
+  However, Markdown is not a real alternative.
+* people still have problems with Docker (see issues in `t3docs/docker-render-documentation <https://github.com/t3docs/docker-render-documentation>`__)
 
 
 Can we improve the tools and toolchain in any way? Or the documentation for
-contributors. What else can we do?
+contributors. Is there anything we can do?
+
+Best to ask them ...
 
 More ...
 ========
