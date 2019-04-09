@@ -107,7 +107,7 @@ Question:
 My Answer:
    I think people read online material differently. They often google
    for one thing. They want to solve one task. In general, I think the
-   information we supply, is too long. And it is not structured in a
+   information we supply, is too long. Large parts of it is not structured in a
    way you can jump right in on any page. I would prefer the "one online
    page structure" within a guide, for example a guide contains a list
    of mini howtos, every howto on one page. The manual :ref:`h2document:start`
@@ -141,9 +141,8 @@ Question:
    "We have x" approach describes what TYPO3 has. It is written from the
    perspective of TYPO3. For example describing an API or describing the
    backend in "Getting Started Tutorial". "I want to do x" looks from the
-   perspective of the user. He or she wants to solve a task. And fast. This would
-   best be served by a mini one-page Howto Guides (e.g. ideally one page
-   per task, as already described above).
+   perspective of the user. He or she wants to solve a task. Which approach
+   is to be preferred for what?
 
 My Answer:
    I think it often depends on the material. If you have an API, you rather
