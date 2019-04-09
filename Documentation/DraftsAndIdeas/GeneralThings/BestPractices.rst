@@ -14,18 +14,12 @@ Decisions, Best Practices
    documentation, thinking about what works for me and comparing it to other
    documentation.
 
-I think you should decide on best practices and a structure for the documentation
-before you start.
+For the TYPO3 documentation, a large amount of documentation already exists. 
 
-For the TYPO3 documentation, a large amount of documentation already exists. A lot
-of it is outdated (especially if you include the Wiki).
-
-I think some things should be reconsidered and a common goal developed. This can
+I think, basic structure and best practices should be defined and a common
+goal developed. This can
 be an abstract vision which must then be put into practice by defining "best
 practices" and "how to do things".
-
-Some of this is already defined in the :ref:`h2document:general-conventions` in
-"Writing Documentation", but it is not enough.
 
 
 Documentation Manifesto
