@@ -47,6 +47,14 @@ Make it easier to learn to use, develop for, integrate with, administrate, edit 
 Open Questions and Answers
 ==========================
 
+For more open decisions, see `open issues with label "decision required" 
+<https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3ATYPO3-Documentation+label%3A%22decision+required%22>`__.
+
+See also issues grouped by projects:
+
+* `list of all projects <https://github.com/orgs/TYPO3-Documentation/projects>`__
+* `project: content structure <https://github.com/orgs/TYPO3-Documentation/projects/6>`__
+
 When finding best practices, these are some of the questions that could be
 answered and decided on. Some of these already exist as issues in GitHub.
 
