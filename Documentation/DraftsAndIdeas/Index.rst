@@ -19,17 +19,14 @@ Drafts and Ideas for TYPO3 documentation
 ========================================
 
 
-* `my open documentation issues on Github 
-  <https://github.com/search?q=org%3ATYPO3-Documentation+type%3Aissue+assignee%3Asypets&state=open&type=Issues>`__
-  (assigned to sypets)
-
 .. toctree::
    :hidden:
    :glob:
 
    GeneralThings/Index
    ProblemsSolutions/Index
-   Configuration/Index.rst
+   TutorialsGuides
+   Configuration/Index
    *
-   rte_ckeditor/Index.rst
+   rte_ckeditor/Index
 
