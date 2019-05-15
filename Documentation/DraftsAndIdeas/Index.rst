@@ -25,6 +25,7 @@ Drafts and Ideas for TYPO3 documentation
 
    GeneralThings/Index
    ProblemsSolutions/Index
+   ReviewInformation
    TutorialsGuides
    Configuration/Index
    *
