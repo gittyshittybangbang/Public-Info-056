@@ -19,6 +19,8 @@ Drafts and Ideas for TYPO3 documentation
 ========================================
 
 
+https://docs.typo3.org
+
 .. toctree::
    :hidden:
    :glob:
